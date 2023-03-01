@@ -1,0 +1,40 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: content/welcome
+
+parts:
+  - chapters:
+      - file: content/credits
+      - file: content/user_guide
+  - caption: Mathematics and Windmills
+    chapters:
+      - file: content/windmills/calculus
+      - file: content/windmills/statistics
+
+# This is the example from my other book:
+
+#parts:
+#  - chapters:
+#      - file: content/credits
+#  - caption: Fundamentals of Reinforcement Learning
+#    chapters:
+#      - file: content/intro-to-rl/the-rl-problem
+#      - file: content/intro-to-rl/markov-decision-processes
+#      - file: content/intro-to-rl/planning-dynamic-programming
+#      - file: content/intro-to-rl/model-free-prediction
+#      - file: content/intro-to-rl/model-free-control
+#      - file: content/intro-to-rl/integrating-learning-planning
+#      - file: content/intro-to-rl/exploration-vs-exploitation
+#  - caption: Value-Based Deep Reinforcement Learning
+#    chapters:
+#    - file: content/deep-rl/value-function-approximation
+#    - file: content/deep-rl/dqn
+#    - file: content/deep-rl/ddqn
+#  - caption: Policy Gradient Algorithms
+#    chapters:
+#      - file: content/pg-algorithms/pg-methods
+#  - caption: Multiagent Reinforcement Learning
+#    chapters:
+#      - file: content/marl/rl-classic-games
