@@ -1,3 +1,4 @@
+# Windmill
 **Pourquoi les éoliennes ne tournent pas si vite ? – Version longue :** (Etienne)
 
 Sujet : polynômes et dérivation
@@ -32,15 +33,15 @@ On cherche la vitesse $x$ permettant à l’éolienne d’obtenir une puissance 
 
 5. Chercher $x^\ast\in\mathbb{R}^+$ tel que $f'(x^\ast)=0 $
 
-6. Que pensez-vous de cette valeur par rapport à $v_1\$ ? 
+6. Que pensez-vous de cette valeur par rapport à $v_1$ ? 
 
-7. Quelle est la valeur de la puissance électrique de l’éolienne pour cette valeur de $x\$ ? (Calculer f(x^\ast) )
+7. Quelle est la valeur de la puissance électrique de l’éolienne pour cette valeur de $x$ ? (Calculer f(x^\ast) )
 
 En réalité, la vitesse des pales de l’éolienne est régulée pour que la vitesse de sortie soit toujours x^\ast. On suppose donc maintenant que l’éolienne fonctionne à cette vitesse. En réalité, $k$ s’écrit $k=\frac{\rho S}{2}$ où $\rho$ est la masse volumique de l’air, qui est constante, et $S$ la surface formée par les pales.
 
-8. Si $v_1$ est divisée par 2, par combien est divisé  $f\left(x^*\right)\$ ?
+8. Si $v_1$ est divisée par 2, par combien est divisé  $f\left(x^*\right)$ ?
 
-9. Par combien faut-il augmenter S pour obtenir la même puissance malgré la baisse de $v_1\ ?
+9. Par combien faut-il augmenter S pour obtenir la même puissance malgré la baisse de $v_1?
 
 
 **Pourquoi les éoliennes ne tournent pas si vite ? – Version courte :** (Etienne)
@@ -64,5 +65,5 @@ On cherche la vitesse x permettant à l’éolienne d’obtenir une puissance ma
 1. Développer $f$
 2. Sur quel intervalle f est-elle dérivable ? Dériver $f$
 3.	Chercher $x^\ast\in\mathbb{R}^+$ tel que $f'(x^\ast)=0$
-4.	Que pensez-vous de cette valeur par rapport à $v_1\$ ?
+4.	Que pensez-vous de cette valeur par rapport à $v_1$ ?
 5.	Quelle est la valeur de la puissance électrique de l’éolienne pour cette valeur de $x^\ast$ ? (Calculer $f(x^\ast)$ )
