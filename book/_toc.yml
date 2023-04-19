@@ -10,8 +10,6 @@ parts:
       - file: content/user_guide
   - caption: Mathematics and Windmills
     chapters:
-      - file: content/windmills/calculus
-      - file: content/windmills/statistics
       - file: content/first_set_etienne
       - file: content/windmill_etienne
 

@@ -7,7 +7,7 @@ copyright: "2023"
 
 # Execution settings
 execute:
-  execute_notebooks: off  # Must be one of ("auto", "force", "cache", "off")
+  execute_notebooks: auto  # Must be one of ("auto", "force", "cache", "off")
   allow_errors: false
 
 # Parse and render settings
@@ -24,7 +24,7 @@ html:
   use_edit_page_button: false
   use_repository_button: false
   use_issues_button: false
-  extra_navbar: Project for "HUM-433 How People Learn II" at <a target="_blank" href="https://edu.epfl.ch/coursebook/en/how-people-learn-designing-learning-tools-ii-HUM-433">École polytechnique fédérale de Lausanne</a>
+  extra_navbar: Project for "HUM-433 How People Learn II" at <a target="_blank" href="https://edu.epfl.ch/coursebook/en/how-people-learn-designing-learning-tools-ii-HUM-433">École Polytechnique Fédérale de Lausanne</a>
   baseurl: "https://lars-quaedvlieg.github.io/Sustainability-High-School-Mathematics/"
   comments:
     hypothesis: true
@@ -52,6 +52,7 @@ bibtex_bibfiles:
 # Advanced settings
 sphinx:
   extra_extensions:
+    - sphinx_design
     - sphinx_proof
     - sphinxcontrib.pseudocode
   config:

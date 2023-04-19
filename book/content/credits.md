@@ -1,10 +1,10 @@
 # Credits
 
 ````{margin}
-```{admonition} If you are more experienced...
-You are encouraged to contribute to this project! If you are interested, reach out 
-[by e-mail](mailto:larsquaedvlieg@outlook.com) or help out by contributing to the 
-[GitHub repository](https://github.com/lars-quaedvlieg/RL-Playground).
+```{admonition} If you are interesting in helping...
+You are encouraged to **contribute** to this project! If you are interested, reach out 
+[by e-mail](mailto:lars.quaedvlieg@epfl.ch) or help out by contributing to the 
+[GitHub repository](https://github.com/lars-quaedvlieg/Sustainability-High-School-Mathematics).
 ```
 ````
 
@@ -17,16 +17,22 @@ this book better!
 
 * - Name
   - Affiliation
-  - Accomplishments  
-* - {badge}`Active maintainer,badge-danger` {badge}`Active contributor,badge-dark`\
+* - {badge}`Project founder,badge-danger`\
   **Lars Quaedvlieg**\
-  [<i class="fa-solid fa-link"></i>](https://larsquaedvlieg.com/)
+  [<i class="fa-solid fa-link"></i>](https://lars-quaedvlieg.github.io/)
   [<i class="fa-brands fa-linkedin"></i>](https://www.linkedin.com/in/lars-quaedvlieg/)
   [<i class="fa-brands fa-github"></i>](https://github.com/lars-quaedvlieg)
-  [<i class="fa-solid fa-envelope"></i>](mailto:lars.quaedvlieg@epfl.ch)
   - Student in Data Science at 
   [*École Polytechnique Fédérale de Lausanne*](https://www.epfl.ch/education/master/programs/data-science/), Lausanne,
   Switzerland
-  - {badge}`Project founder,badge-danger`
-  
+* - {badge}`Project founder,badge-danger`\
+  **Etienne Chassaing**
+  - Student at 
+  [*École Polytechnique Fédérale de Lausanne*](https://www.epfl.ch/education/master/programs/data-science/), Lausanne,
+  Switzerland
+* - {badge}`Project founder,badge-danger`\
+  **Cameron Bush**
+  - Student in Data Science at 
+  [*École Polytechnique Fédérale de Lausanne*](https://www.epfl.ch/education/master/programs/data-science/), Lausanne,
+  Switzerland
 ```
