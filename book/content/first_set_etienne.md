@@ -10,7 +10,7 @@ L’augmentation de la température moyenne à l’échelle de la Terre est dire
 ![](../images/emission_deux_scenarios.png)
 Figure  1  : Évolution de la quantité de CO2  émise à l'échelle du monde
 
-On choisit de modéliser la courbe rouge (RCP 8.5) par une suite numérique $\left(r_n\right)_{\left(n\in\mathbb{N}\right)}$. On utilisera l’année 2000 comme référence. Notre suite $\left(r_n\right)_{\left(n\in\mathbb{N}\right)}$ représente donc les émissions telle que $r_0=6$ (Valeur en 2000 :  6 GtC/an) et $r_{100}=29$ (Valeur en 2100 : 29 GtC/an).
+On choisit de modéliser la courbe rouge (RCP 8.5) par une suite numérique $ \left(r_n\right)_{\left(n\in\mathbb{N}\right)} $. On utilisera l’année 2000 comme référence. Notre suite $ \left(r_n\right)_{\left(n\in\mathbb{N}\right)} $ représente donc les émissions telle que $r_0=6$ (Valeur en 2000 :  6 GtC/an) et $r_{100}=29$ (Valeur en 2100 : 29 GtC/an).
 
 1. Entre 2000 et 2060, la suite semble-t-elle être une suite arithmétique ? Une suite géométrique ?
 
@@ -20,7 +20,7 @@ On choisit de modéliser la courbe rouge (RCP 8.5) par une suite numérique $\le
 
 L’hypothèse précédente ne permet pas de modéliser la courbe après 2065, la partie 2065-2100 ne sera donc pas étudiée.
 
-En 2015, les pays de l’organisation des Nations Unies (ONU) ont voté les accords de Paris. Ce texte prévoit de diminuer les émissions de CO2 de 5% par an en vue de limiter le réchauffement climatique à +2°C en 2100. A partir de 2015, on définit une suite $\left(v_n\right)_{\left(n\in\mathbb{N}\right)}$ qui représente les émissions prévues selon ce scénario. On a $v_0=9$ (Valeur en 2015 : 9 GtC/an).
+En 2015, les pays de l’organisation des Nations Unies (ONU) ont voté les accords de Paris. Ce texte prévoit de diminuer les émissions de CO2 de 5% par an en vue de limiter le réchauffement climatique à +2°C en 2100. A partir de 2015, on définit une suite $ \left(v_n\right)_{\left(n\in\mathbb{N}\right)} $ qui représente les émissions prévues selon ce scénario. On a $v_0=9$ (Valeur en 2015 : 9 GtC/an).
 
 4. Avec quel type de suite peut-on modéliser une diminution de 5% par an ? Quels seraient ses paramètres ?
 
