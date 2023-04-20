@@ -4,16 +4,19 @@ This page contains a user guide that will get you started with the application i
 
 # Using the website
 
-The following image explains how to navigate the website, and where to find the content such as exercises.
+The following dropdown menu explains how to navigate the website, and where to find the content such as exercises.
 
+````{dropdown} Basic Navigation Guide
 ```{figure} ../images/navigation-guide.png
 :alt: Navigation Guide
 :class: bg-primary mb-1
-:width: 60%
+:width: 100%
 :align: center
 
 Basic Navigation Guide
 ```
+
+````
 
 # Interactivity
 
