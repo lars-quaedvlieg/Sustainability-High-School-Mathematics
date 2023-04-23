@@ -13,6 +13,8 @@ parts:
       - file: content/first_set_etienne
       - file: content/windmill_etienne
       - file: content/predator-prey
+      - file: content/limites_planetaires
+      - file: content/bayes
 
 # This is the example from my other book:
 
