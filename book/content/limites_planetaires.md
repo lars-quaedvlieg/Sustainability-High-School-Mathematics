@@ -18,7 +18,7 @@ $ q'(t) = \alpha q(t) - \beta q(t) = (\alpha - \beta) q(t)$
 1. De quel type d'équation différentielle s'agit-il? La mettre sous forme canonique.
 2. En notant $\tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
 3. Que représente $\tau$?
-3. Quelle est la limite de $q(t)$ en $+  \infty$ pour $\tau>0$ ? Pour $\tau<0$ ? Que se passe t'il pour $\Tau=0$ ? 
+3. Quelle est la limite de $q(t)$ en $+  \infty$ pour $\tau>0$ ? Pour $\tau<0$ ? Que se passe t'il pour $\tau=0$ ? 
 4. Expliquer ce que chacun des 3 cas représente et tracer $q$ en fonction de $t$ pour chaque cas
 
 5. Quel est le risque de consommer plus de ressource que ce que l'on produit? Mathématiquement quelles sont les solutions pour résoudre ce problème.
@@ -66,7 +66,7 @@ Sujet : Limite - Equations différentielles
 
 Source : https://fr.wikipedia.org/wiki/Dynamique_des_populations and https://en.wikipedia.org/wiki/Logistic_function#In_ecology:_modeling_population_growth
 
-On souhaite décrire l'évolution d'une population dans un environnement donné. On note $N$ le nombre d'individus initialement et f(t)$ la fonction qui décrit l'évolution de la population en fonction du temps.
+On souhaite décrire l'évolution d'une population dans un environnement donné. On note $N$ le nombre d'individus initialement et $f(t)$ la fonction qui décrit l'évolution de la population en fonction du temps.
 On suppose que l'environnement peut accueillir $K$ individus en terme de ressources et que la population évolue à un taux $r$ (taux de naissance moins taux de décés).
 On peut décrire $f$ avec l'équation différentielle suivante:
 
@@ -82,7 +82,8 @@ $f(t) = \frac{K N e^{rt}}{K + N \left( e^{rt} - 1\right)} = \frac{K}{1+\left(\fr
 3. Calculer la limite de la fonction en $+ \inf$. Commenter.
 Le graphique suivant montre une solution de l'équation différentielle étudiée plus haut:
 
-![](../images/capacity.png)
+![](../images/capacity.png) 
+
 
 $k$ représente la limite du nombre d'individus avec la production des ressources d'un environnement.
 Une population peut dépasser $K$ en stockant et en consommant plus de ressourses que l'environnement peut en fournir.
