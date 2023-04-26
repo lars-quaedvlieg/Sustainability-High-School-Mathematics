@@ -16,9 +16,9 @@ On peut écrire que pour tout temps $t \in \mathbb{R}^+$ l'évolution de la quan
 $ q'(t) = \alpha q(t) - \beta q(t) = (\alpha - \beta) q(t)$
 
 1. De quel type d'équation différentielle s'agit-il? La mettre sous forme canonique.
-2. En notant $\Tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
-3. Que représente $\Tau$?
-3. Quelle est la limite de $q(t)$ en $+ \inf$ pour $\Tau>0$ ? Pour $\Tau<0$ ? Que se passe t'il pour $\Tau=0$ ? 
+2. En notant $\tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
+3. Que représente $\tau$?
+3. Quelle est la limite de $q(t)$ en $+  \infty$ pour $\tau>0$ ? Pour $\tau<0$ ? Que se passe t'il pour $\Tau=0$ ? 
 4. Expliquer ce que chacun des 3 cas représente et tracer $q$ en fonction de $t$ pour chaque cas
 
 5. Quel est le risque de consommer plus de ressource que ce que l'on produit? Mathématiquement quelles sont les solutions pour résoudre ce problème.
@@ -42,9 +42,9 @@ En l'absence de l'homme, l'évolution de la fonction $f$ suit l'équation diffé
 $ f'(t) = \alpha f(t) - \beta f(t) = (\alpha - \beta) f(t)$
 
 1. De quel type d'équation différentielle s'agit-il? La mettre sous forme canonique. 
-2. En notant $\Tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
-3. Faire une hypothèse sur le signe de $\Tau = \alpha - \beta$ et calculer la limite de $f$ en $+ \inf$. 
-4. Tracer la courbe pour une valeur de $\Tau positive.
+2. En notant $\tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
+3. Faire une hypothèse sur le signe de $\tau = \alpha - \beta$ et calculer la limite de $f$ en $+  \infty$. 
+4. Tracer la courbe pour une valeur de $\tau positive.
 
 On suppose maintenant que l'Homme chasse un taux $\delta$ de nuisible en fonction du temps. La nouvelle équation est donc:
 
@@ -52,7 +52,7 @@ $ f'(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t)
 
 5. On note maintenant $\gamma = \alpha - \beta - \delta$. Que signifie $\gamma$ négatif ?
 6. Réécrire la solution de l'équation différentielle en fonction de $\gamma$.
-7. Quelle est la limite de $f$ en $+ \inf$ si $\gamma<0$?
+7. Quelle est la limite de $f$ en $+  \infty$ si $\gamma<0$?
 8. A quoi correspond le cas $\gamma=0$ ? ( Mathématiquement et dans la vraie vie)
 9. Qualitativement, comment devrait évoluer $\gamma$ pour avoir une politique de gestion efficace ? Quel est le risque de vouloir gérer une population via la chasse?
 
@@ -77,7 +77,7 @@ $ f'(t) = rf(t) (\frac{K-f(t)}{K})= r f(t) (1-\frac{f(t)}{K}) $
 
 Cette équation a pour solution en fonction de N:
 
-<math display="block">f(t) = \frac{K N e^{rt}}{K + N \left( e^{rt} - 1\right)} = \frac{K}{1+\left(\frac{K-N}{N}\right)e^{-rt}}, </math>
+$f(t) = \frac{K N e^{rt}}{K + N \left( e^{rt} - 1\right)} = \frac{K}{1+\left(\frac{K-N}{N}\right)e^{-rt}}$
 
 3. Calculer la limite de la fonction en $+ \inf$. Commenter.
 Le graphique suivant montre une solution de l'équation différentielle étudiée plus haut:
@@ -93,4 +93,4 @@ Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources s
 4. Placer sur le graphique $N$ le nombre initial d'individu et $K$. Repérer des zones où $f(t)<K$ , $f(t)>K$ 
 5. Une population peut-elle indéfiniement consommer plus de ressources qu'elle n'en produit?
 
-Note: A comparer avec une croissance infinie : $f'(t) = rf(t) avec r>0$. Possibilités de continuer l'activité via une simulation
+Note: A comparer avec une croissance infinie : $f'(t) = rf(t)$ avec $r>0$. Possibilités de continuer l'activité via une simulation
