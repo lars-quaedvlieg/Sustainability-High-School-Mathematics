@@ -1,6 +1,6 @@
 # Limites planétaires
 
-##**Evolution d'une ressource**: (Etienne)
+## **Evolution d'une ressource**: (Etienne)
 
 Sujet : Equations différentielles - Limites- Stabilité de l'équation
 
@@ -27,7 +27,7 @@ En réalité, $\alpha$ et $\beta$ dépendent eux aussi du temps, en particulier 
 Cependant, est possible de les résoudre à l'ordinateur (voir activité à ce sujet).
 
 
-##**Gestion d'une population de nuisibles**: (Etienne)
+## **Gestion d'une population de nuisibles**: (Etienne)
 
 Sujet : Equations différentielles - Stabilité de l'équation
 
@@ -56,7 +56,7 @@ $ f'(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t)
 8. A quoi correspond le cas $\gamma=0$ ? ( Mathématiquement et dans la vraie vie)
 9. Qualitativement, comment devrait évoluer $\gamma$ pour avoir une politique de gestion efficace ? Quel est le risque de vouloir gérer une population via la chasse?
 
-##**Limite de la croissance d'une population**: (Etienne)
+## **Limite de la croissance d'une population**: (Etienne)
 
 Sujet : Limite - Equations différentielles
 

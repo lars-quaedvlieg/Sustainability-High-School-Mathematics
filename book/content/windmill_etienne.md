@@ -1,5 +1,5 @@
 # Windmill
-##**Pourquoi les éoliennes ne tournent pas si vite ? – Version longue :** (Etienne)
+## **Pourquoi les éoliennes ne tournent pas si vite ? – Version longue :** (Etienne)
 
 Sujet : polynômes et dérivation
 
@@ -44,7 +44,7 @@ En réalité, la vitesse des pales de l’éolienne est régulée pour que la vi
 9. Par combien faut-il augmenter S pour obtenir la même puissance malgré la baisse de $v_1?
 
 
-##**Pourquoi les éoliennes ne tournent pas si vite ? – Version courte :** (Etienne)
+## **Pourquoi les éoliennes ne tournent pas si vite ? – Version courte :** (Etienne)
 
 Sujet : polynômes et dérivation
 

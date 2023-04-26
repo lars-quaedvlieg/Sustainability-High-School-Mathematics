@@ -4,7 +4,7 @@ L'exercice suivant ne traite pas à proprement parlé de la soutenabilité mais 
 L'exercice peut facilement être adapté sur un sujet autre (par exemple des chiffres sur la déforestation ou la polution).
 
 
-##**Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :** (Etienne)
+## **Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :** (Etienne)
 Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance
 
 Source : https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-a-lhopital-18-11-2021-4OUPPBEWANBRXMC6EIZWS725CU.php
@@ -40,7 +40,7 @@ Source : Le Parisien
 
 Deuxième version avec des sources différentes:
 
-##**Le vaccin contre le covid est-il efficace? :** (Etienne)
+## **Le vaccin contre le covid est-il efficace? :** (Etienne)
 
 Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance
 
