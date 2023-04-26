@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Loi de Bayes &#8212; Sustainability in High School Mathematics</title>
+    <title>Loi de Bayes et Fake news &#8212; Sustainability in High School Mathematics</title>
   
   
   
@@ -63,6 +63,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/bayes';</script>
     <link rel="canonical" href="https://lars-quaedvlieg.github.io/Sustainability-High-School-Mathematics/content/bayes.html" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
@@ -191,7 +193,7 @@ const thebe_selector_output = ".output, .cell_output"
 
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        Loi de Bayes
+                        Loi de Bayes et Fake news
                       </a>
                     </li>
                 
@@ -313,7 +315,7 @@ const thebe_selector_output = ".output, .cell_output"
 
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        Loi de Bayes
+                        Loi de Bayes et Fake news
                       </a>
                     </li>
                 
@@ -401,7 +403,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="windmill_etienne.html">Windmill</a></li>
 <li class="toctree-l1"><a class="reference internal" href="predator-prey.html">Sustainable Fishing Practices</a></li>
 <li class="toctree-l1"><a class="reference internal" href="limites_planetaires.html">Limites planétaires</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Loi de Bayes</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Loi de Bayes et Fake news</a></li>
 </ul>
 
     </div>
@@ -503,7 +505,7 @@ title="Print to PDF"
             
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Loi de Bayes</h1>
+    <h1>Loi de Bayes et Fake news</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -514,8 +516,72 @@ title="Print to PDF"
 
             <article class="bd-article" role="main">
               
-  <section class="tex2jax_ignore mathjax_ignore" id="loi-de-bayes">
-<h1>Loi de Bayes<a class="headerlink" href="#loi-de-bayes" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="loi-de-bayes-et-fake-news">
+<h1>Loi de Bayes et Fake news<a class="headerlink" href="#loi-de-bayes-et-fake-news" title="Permalink to this headline">#</a></h1>
+<p>L’exercice suivant ne traite pas à proprement parlé de la soutenabilité mais permet de présenter un regard critique face à certaines affirmations apparement justes.
+L’exercice peut facilement être adapté sur un sujet autre (par exemple des chiffres sur la déforestation ou la polution).</p>
+<p><strong>Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :</strong> (Etienne)
+Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance</p>
+<p>Source : https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-a-lhopital-18-11-2021-4OUPPBEWANBRXMC6EIZWS725CU.php</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>1e</strong></p></th>
+<th class="head"><p><strong>2e</strong></p></th>
+<th class="head"><p><strong>3e</strong></p></th>
+<th class="head"><p><strong>4e</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p><strong>x</strong></p></td>
+<td><p><strong>x</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>Fin octobre 2021, le nombre de personnes vaccinées du covid dépasse le nombre de personnes non vaccinées dans les hopitaux français:</p>
+<p><img alt="" src="../_images/parisien_1.png" /></p>
+<p>Source : Le Parisien</p>
+<ol class="arabic simple">
+<li><p>Peut-on en conclure, comme cela a pu être déclaré, qu’il s’agit d’une preuve que les vaccins ne sont pas efficaces?</p></li>
+</ol>
+<p>A ce moment là, la France est à <span class="math notranslate nohighlight">\(90\%\)</span> vaccinées. On note <span class="math notranslate nohighlight">\(V\)</span> l’évènement “une personne tirée au hasard est vaccinée”.</p>
+<ol class="arabic simple" start="2">
+<li><p>Que vaut <span class="math notranslate nohighlight">\(P(V)\)</span> ? Que vaut et que représente <span class="math notranslate nohighlight">\(P(\bar{V})\)</span>? De quelle loi de probabilité s’agit-il?</p></li>
+</ol>
+<p>On estime à <span class="math notranslate nohighlight">\(0,001\)</span> la probabilité d’être hospitalisé chaque jour pour une personne vaccinée et à <span class="math notranslate nohighlight">\(0,0001\)</span> pour une personne non vaccinée.
+On note <span class="math notranslate nohighlight">\(H\)</span> l’évènement “la personne considérée est hospitalisée”.</p>
+<ol class="arabic simple" start="3">
+<li><p>De quel type de probabilités s’agit-il?</p></li>
+<li><p>Quelle est la probabilité qu’une personne soit hospitalisée et vaccinée ? Hospitalisée et non vaccinée?</p></li>
+<li><p>Comparer ces valeurs</p></li>
+<li><p>En moyenne sur 10 millions de personnes, combien de personnes vaccinées et non-vaccinées seront hospitalisées? Conclure sur ce paradoxe</p></li>
+</ol>
+<p>Solution en image :
+<img alt="" src="../_images/parisien_solution.jpg" />
+Source : Le Parisien</p>
+<p>Deuxième version avec des sources différentes:
+<strong>Le vaccin contre le covid est-il efficace? :</strong> (Etienne)</p>
+<p>Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance</p>
+<p>Source : https://www.lemonde.fr/les-decodeurs/article/2022/01/04/covid-19-la-majorite-des-patients-en-reanimation-sont-bien-non-vaccines_6108190_4355770.html</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>1e</strong></p></th>
+<th class="head"><p><strong>2e</strong></p></th>
+<th class="head"><p><strong>3e</strong></p></th>
+<th class="head"><p><strong>4e</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p><strong>x</strong></p></td>
+<td><p><strong>x</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>D’après les chiffres d’admissions à l’hôpital du 31 mai 2021 :
+Les non-vaccinés ne représentent « que » 56 % des hospitalisations conventionnelles, contre 38 % pour les personnes complètement vaccinées ;</p>
 </section>
 
     <script type="text/x-thebe-config">

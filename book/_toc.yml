@@ -15,6 +15,7 @@ parts:
       - file: content/predator-prey
       - file: content/limites_planetaires
       - file: content/bayes
+      - file: content/Cameron_Ex1
 
 # This is the example from my other book:
 
