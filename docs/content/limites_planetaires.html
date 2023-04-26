@@ -70,6 +70,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Loi de Bayes" href="bayes.html" />
     <link rel="prev" title="Sustainable Fishing Practices" href="predator-prey.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
@@ -190,6 +191,13 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="bayes.html">
+                        Loi de Bayes
+                      </a>
+                    </li>
+                
                 </div>
             </div>
             
@@ -305,6 +313,13 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="bayes.html">
+                        Loi de Bayes
+                      </a>
+                    </li>
+                
                 </div>
             </div>
             
@@ -389,6 +404,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="windmill_etienne.html">Windmill</a></li>
 <li class="toctree-l1"><a class="reference internal" href="predator-prey.html">Sustainable Fishing Practices</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Limites planétaires</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bayes.html">Loi de Bayes</a></li>
 </ul>
 
     </div>
@@ -528,9 +544,9 @@ On peut écrire que pour tout temps <span class="math notranslate nohighlight">\
 <p><span class="math notranslate nohighlight">\( q'(t) = \alpha q(t) - \beta q(t) = (\alpha - \beta) q(t)\)</span></p>
 <ol class="arabic simple">
 <li><p>De quel type d’équation différentielle s’agit-il? La mettre sous forme canonique.</p></li>
-<li><p>En notant <span class="math notranslate nohighlight">\(\Tau = \alpha - \beta\)</span> et en utilisant les conditions initiales, résoudre l’équation.</p></li>
-<li><p>Que représente <span class="math notranslate nohighlight">\(\Tau\)</span>?</p></li>
-<li><p>Quelle est la limite de <span class="math notranslate nohighlight">\(q(t)\)</span> en <span class="math notranslate nohighlight">\(+ \inf\)</span> pour <span class="math notranslate nohighlight">\(\Tau&gt;0\)</span> ? Pour <span class="math notranslate nohighlight">\(\Tau&lt;0\)</span> ? Que se passe t’il pour <span class="math notranslate nohighlight">\(\Tau=0\)</span> ?</p></li>
+<li><p>En notant <span class="math notranslate nohighlight">\(\tau = \alpha - \beta\)</span> et en utilisant les conditions initiales, résoudre l’équation.</p></li>
+<li><p>Que représente <span class="math notranslate nohighlight">\(\tau\)</span>?</p></li>
+<li><p>Quelle est la limite de <span class="math notranslate nohighlight">\(q(t)\)</span> en <span class="math notranslate nohighlight">\(+  \infty\)</span> pour <span class="math notranslate nohighlight">\(\tau&gt;0\)</span> ? Pour <span class="math notranslate nohighlight">\(\tau&lt;0\)</span> ? Que se passe t’il pour <span class="math notranslate nohighlight">\(\Tau=0\)</span> ?</p></li>
 <li><p>Expliquer ce que chacun des 3 cas représente et tracer <span class="math notranslate nohighlight">\(q\)</span> en fonction de <span class="math notranslate nohighlight">\(t\)</span> pour chaque cas</p></li>
 <li><p>Quel est le risque de consommer plus de ressource que ce que l’on produit? Mathématiquement quelles sont les solutions pour résoudre ce problème.</p></li>
 </ol>
@@ -560,16 +576,16 @@ En l’absence de l’homme, l’évolution de la fonction <span class="math not
 <p><span class="math notranslate nohighlight">\( f'(t) = \alpha f(t) - \beta f(t) = (\alpha - \beta) f(t)\)</span></p>
 <ol class="arabic simple">
 <li><p>De quel type d’équation différentielle s’agit-il? La mettre sous forme canonique.</p></li>
-<li><p>En notant <span class="math notranslate nohighlight">\(\Tau = \alpha - \beta\)</span> et en utilisant les conditions initiales, résoudre l’équation.</p></li>
-<li><p>Faire une hypothèse sur le signe de <span class="math notranslate nohighlight">\(\Tau = \alpha - \beta\)</span> et calculer la limite de <span class="math notranslate nohighlight">\(f\)</span> en <span class="math notranslate nohighlight">\(+ \inf\)</span>.</p></li>
-<li><p>Tracer la courbe pour une valeur de $\Tau positive.</p></li>
+<li><p>En notant <span class="math notranslate nohighlight">\(\tau = \alpha - \beta\)</span> et en utilisant les conditions initiales, résoudre l’équation.</p></li>
+<li><p>Faire une hypothèse sur le signe de <span class="math notranslate nohighlight">\(\tau = \alpha - \beta\)</span> et calculer la limite de <span class="math notranslate nohighlight">\(f\)</span> en <span class="math notranslate nohighlight">\(+  \infty\)</span>.</p></li>
+<li><p>Tracer la courbe pour une valeur de $\tau positive.</p></li>
 </ol>
 <p>On suppose maintenant que l’Homme chasse un taux <span class="math notranslate nohighlight">\(\delta\)</span> de nuisible en fonction du temps. La nouvelle équation est donc:</p>
 <p>$ f’(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t)</p>
 <ol class="arabic simple" start="5">
 <li><p>On note maintenant <span class="math notranslate nohighlight">\(\gamma = \alpha - \beta - \delta\)</span>. Que signifie <span class="math notranslate nohighlight">\(\gamma\)</span> négatif ?</p></li>
 <li><p>Réécrire la solution de l’équation différentielle en fonction de <span class="math notranslate nohighlight">\(\gamma\)</span>.</p></li>
-<li><p>Quelle est la limite de <span class="math notranslate nohighlight">\(f\)</span> en <span class="math notranslate nohighlight">\(+ \inf\)</span> si <span class="math notranslate nohighlight">\(\gamma&lt;0\)</span>?</p></li>
+<li><p>Quelle est la limite de <span class="math notranslate nohighlight">\(f\)</span> en <span class="math notranslate nohighlight">\(+  \infty\)</span> si <span class="math notranslate nohighlight">\(\gamma&lt;0\)</span>?</p></li>
 <li><p>A quoi correspond le cas <span class="math notranslate nohighlight">\(\gamma=0\)</span> ? ( Mathématiquement et dans la vraie vie)</p></li>
 <li><p>Qualitativement, comment devrait évoluer <span class="math notranslate nohighlight">\(\gamma\)</span> pour avoir une politique de gestion efficace ? Quel est le risque de vouloir gérer une population via la chasse?</p></li>
 </ol>
@@ -601,7 +617,7 @@ On peut décrire \)</span>f$ avec l’équation différentielle suivante:</p>
 <li><p>Que représente le cas où <span class="math notranslate nohighlight">\(f(t)&gt;K\)</span> ? Quel est le signe de <span class="math notranslate nohighlight">\(f'\)</span> dans ce cas? Comment va évoluer <span class="math notranslate nohighlight">\(f\)</span>?</p></li>
 </ol>
 <p>Cette équation a pour solution en fonction de N:</p>
-<p><math display="block">f(t) = \frac{K N e^{rt}}{K + N \left( e^{rt} - 1\right)} = \frac{K}{1+\left(\frac{K-N}{N}\right)e^{-rt}}, </math></p>
+<p><span class="math notranslate nohighlight">\(f(t) = \frac{K N e^{rt}}{K + N \left( e^{rt} - 1\right)} = \frac{K}{1+\left(\frac{K-N}{N}\right)e^{-rt}}\)</span></p>
 <ol class="arabic simple" start="3">
 <li><p>Calculer la limite de la fonction en <span class="math notranslate nohighlight">\(+ \inf\)</span>. Commenter.
 Le graphique suivant montre une solution de l’équation différentielle étudiée plus haut:</p></li>
@@ -615,7 +631,7 @@ Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources s
 <li><p>Placer sur le graphique <span class="math notranslate nohighlight">\(N\)</span> le nombre initial d’individu et <span class="math notranslate nohighlight">\(K\)</span>. Repérer des zones où <span class="math notranslate nohighlight">\(f(t)&lt;K\)</span> , <span class="math notranslate nohighlight">\(f(t)&gt;K\)</span></p></li>
 <li><p>Une population peut-elle indéfiniement consommer plus de ressources qu’elle n’en produit?</p></li>
 </ol>
-<p>Note: A comparer avec une croissance infinie : <span class="math notranslate nohighlight">\(f'(t) = rf(t) avec r&gt;0\)</span>. Possibilités de continuer l’activité via une simulation</p>
+<p>Note: A comparer avec une croissance infinie : <span class="math notranslate nohighlight">\(f'(t) = rf(t)\)</span> avec <span class="math notranslate nohighlight">\(r&gt;0\)</span>. Possibilités de continuer l’activité via une simulation</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -652,6 +668,13 @@ Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources s
           <p class="prev-next-subtitle">previous</p>
           <p class="prev-next-title">Sustainable Fishing Practices</p>
       </div>
+  </a>
+  <a class='right-next' id="next-link" href="bayes.html" title="next page">
+  <div class="prev-next-info">
+      <p class="prev-next-subtitle">next</p>
+      <p class="prev-next-title">Loi de Bayes</p>
+  </div>
+  <i class="fa-solid fa-angle-right"></i>
   </a>
 </div>
             </footer>
