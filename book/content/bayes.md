@@ -1,13 +1,13 @@
 # Loi de Bayes et Fake news
 
-L'exercice suivant ne traite pas à proprement parlé de la soutenabilité mais permet de présenter un regard critique face à certaines affirmations apparement justes.
-L'exercice peut facilement être adapté sur un sujet autre (par exemple des chiffres sur la déforestation ou la polution).
+Les exercices suivants ne traitent pas à proprement parlé de la soutenabilité mais permettent d'expliquer la nécessité un regard critique et scientifique face à certaines affirmations apparement justes.
+Les exercices peuvent facilement être adaptés sur un sujet autre (par exemple des chiffres sur la déforestation ou la pollution).
 
 
 ## **Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :** (Etienne)
 Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance
 
-Source : https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-a-lhopital-18-11-2021-4OUPPBEWANBRXMC6EIZWS725CU.php
+Source : <https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-a-lhopital-18-11-2021-4OUPPBEWANBRXMC6EIZWS725CU.php>
 
 | **1e** | **2e** | **3e** | **4e** |
 |--------| --- | --- | --- |
@@ -50,7 +50,7 @@ Deuxième version avec des sources différentes:
 
 Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance
 
-Source : https://www.lemonde.fr/les-decodeurs/article/2022/01/04/covid-19-la-majorite-des-patients-en-reanimation-sont-bien-non-vaccines_6108190_4355770.html
+Source : <https://www.lemonde.fr/les-decodeurs/article/2022/01/04/covid-19-la-majorite-des-patients-en-reanimation-sont-bien-non-vaccines_6108190_4355770.html>
 
 | **1e** | **2e** | **3e** | **4e** |
 |--------| --- | --- | --- |
@@ -87,8 +87,8 @@ Dans notre cas, si on regarde juste à l'hôpital:
 
 Mais si on regarde dans la population globale:
 
-
 <p align="center">
 <img src="../images/lemonde_2.png" width="400"/>
 </p>
-Voir aussi : https://fr.wikipedia.org/wiki/Paradoxe_de_Simpson
+
+Voir aussi : <https://fr.wikipedia.org/wiki/Paradoxe_de_Simpson>
