@@ -15,7 +15,9 @@ Source : https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-
 
 Fin octobre 2021, le nombre de personnes vaccinées du covid dépasse le nombre de personnes non vaccinées dans les hopitaux français:
 
-![](../images/parisien_1.png)
+<p align="center">
+<img src="../images/parisien_1.png" width="400"/>
+</p>
 
 Source : Le Parisien
 
@@ -35,7 +37,11 @@ On note $H$ l'évènement "la personne considérée est hospitalisée".
 6. En moyenne sur 10 millions de personnes, combien de personnes vaccinées et non-vaccinées seront hospitalisées? Conclure sur ce paradoxe
 
 Solution en image :
-![](../images/parisien_solution.jpg)
+
+<p align="center">
+<img src="../images/parisien_solution.jpg" width="400"/>
+</p>
+
 Source : Le Parisien
 
 Deuxième version avec des sources différentes:
@@ -64,8 +70,8 @@ On note $V$ l'évènement "une personne tirée au hasard est vaccinée". On note
 
 A ce moment, la France est à $90\%$ vaccinée. On pourra considérer qu'il y a 6000 hospitalisations sur la population de 60 millions d'habitants.
 
-4. Que vaut $P(V)$? Que vaut $P(H)$?
-5. En utilisant la loi de Bayes, calculer la probabilité d'être hospitalisé en étant vacciné. Faire le même calcul en supposant une personne non vaccinée.
+4. Que vaut $P(V)$, $P(\bar{V})$? Que vaut $P(H)$?
+5. En utilisant la loi de Bayes, calculer la probabilité d'être hospitalisé en étant vacciné: $P_V(H)$. Faire le même calcul pour une personne non vaccinée $P_{\bar{V}}(H)$.
 6. Comparer les deux valeurs et conclure sur l'efficacité des vaccins d'après ces chiffres.
 
 **Bonus**: En réalité la probabilité d'être hospitalisé $P(H)$ n'est pas nécessaire pour conclure. Faire la même comparaison en faisant disparaitre $P(H)$ des calculs.
@@ -74,7 +80,15 @@ A ce moment, la France est à $90\%$ vaccinée. On pourra considérer qu'il y a 
 Explication :
 Une statistique ne nous dit pas qu'elle était la population de départ. Lorsque l'on regarde un chiffre, il faut réfléchir sur la population qui a donné cette probabilité.
 Dans notre cas, si on regarde juste à l'hôpital:
-![](../images/lemonde_1.png)
+
+<p align="center">
+<img src="../images/lemonde_1.png" width="400"/>
+</p>
+
 Mais si on regarde dans la population globale:
-![](../images/lemonde_2.png)
+
+
+<p align="center">
+<img src="../images/lemonde_2.png" width="400"/>
+</p>
 Voir aussi : https://fr.wikipedia.org/wiki/Paradoxe_de_Simpson
