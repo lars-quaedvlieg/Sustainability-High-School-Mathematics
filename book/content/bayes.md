@@ -15,8 +15,7 @@ Source : <https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais
 
 Fin octobre 2021, le nombre de personnes vaccinées du covid dépasse le nombre de personnes non vaccinées dans les hopitaux français:
 
-
-<img src="../images/parisien_1.png" width="400"/>
+![](../images/parisien_1.png)
 
 Source : Le Parisien
 
@@ -27,7 +26,7 @@ A ce moment là, la France est à $90\%$ vaccinées. On note $V$ l'évènement "
 2. Que vaut $P(V)$ ? Que vaut et que représente $P(\bar{V})$? De quelle loi de probabilité s'agit-il?
 
 On estime à $0,001$ la probabilité d'être hospitalisé chaque jour pour une personne vaccinée et à $0,0001$ pour une personne non vaccinée.
-On note $H$ l'évènement "la personne considérée est hospitalisée".
+On note $H$ l'évènement "la personne tirée est hospitalisée".
 
 3. De quel type de probabilités s'agit-il?
 
@@ -37,8 +36,7 @@ On note $H$ l'évènement "la personne considérée est hospitalisée".
 
 Solution en image :
 
-
-<img src="../images/parisien_solution.jpg" width="400"/>
+![](../images/parisien_solution.jpg)
 
 Source : Le Parisien
 
@@ -79,13 +77,11 @@ Explication :
 Une statistique ne nous dit pas qu'elle était la population de départ. Lorsque l'on regarde un chiffre, il faut réfléchir sur la population qui a donné cette probabilité.
 Dans notre cas, si on regarde juste à l'hôpital:
 
-<img src="../images/lemonde_1.png" width="400"/>
-
+![](../images/lemonde_1.png)
 
 Mais si on regarde dans la population globale:
 
-
-<img src="../images/lemonde_2.png" width="400"/>
+![](../images/lemonde_2.png)
 
 
 Voir aussi : <https://fr.wikipedia.org/wiki/Paradoxe_de_Simpson>
