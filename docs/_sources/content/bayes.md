@@ -15,9 +15,8 @@ Source : <https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais
 
 Fin octobre 2021, le nombre de personnes vaccinées du covid dépasse le nombre de personnes non vaccinées dans les hopitaux français:
 
-<p align="center">
+
 <img src="../images/parisien_1.png" width="400"/>
-</p>
 
 Source : Le Parisien
 
@@ -38,9 +37,8 @@ On note $H$ l'évènement "la personne considérée est hospitalisée".
 
 Solution en image :
 
-<p align="center">
+
 <img src="../images/parisien_solution.jpg" width="400"/>
-</p>
 
 Source : Le Parisien
 
@@ -81,14 +79,13 @@ Explication :
 Une statistique ne nous dit pas qu'elle était la population de départ. Lorsque l'on regarde un chiffre, il faut réfléchir sur la population qui a donné cette probabilité.
 Dans notre cas, si on regarde juste à l'hôpital:
 
-<p align="center">
 <img src="../images/lemonde_1.png" width="400"/>
-</p>
+
 
 Mais si on regarde dans la population globale:
 
-<p align="center">
+
 <img src="../images/lemonde_2.png" width="400"/>
-</p>
+
 
 Voir aussi : <https://fr.wikipedia.org/wiki/Paradoxe_de_Simpson>
