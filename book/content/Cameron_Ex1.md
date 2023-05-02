@@ -9,6 +9,9 @@ In order to understand how the climate is affected by human activity, we need to
     ":label: radiationbalance\n",
     "\P_a=P_e\n",
     "```\n",
+    
+    $P_a=P_e$
+
 These terms are further defined by equations 2 and 3 
 "\n",
     "```{math}\n",
