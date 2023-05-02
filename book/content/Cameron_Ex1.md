@@ -29,6 +29,11 @@ Here, we are assuming the Earth is a black body which means we assume it absorbs
 
 After solving this equation, you should see that the temperature of the Earth is around **-18 degrees Celsius**. Intuitively, we know that this number is significantly lower than the real temperature of the earth. This is due to the Greenhouse Effect.
 
+*Sources:* 
+
+*Pennsylvania State University. (n.d.). Incoming Solar Radiation and the Earth's Energy Balance. Retrieved from https://www.e-education.psu.edu/earth104/node/1259#:~:text=Incoming%20and%20outgoing%20energy%20come,surface%20temperature%20of%20the%20Earth.*
+
+
 ## The Greenhouse Effect
 
 You have likely heard of the Greenhouse Effect in your science courses; it is the reason the surface of the Earth is warm enough to be inhabitable. The atmosphere acts as the walls of a greenhouse, letting the suns energy in while also making it more difficult for it to escape
@@ -53,9 +58,13 @@ After solving, you will notice that the average temperature of the earth is abou
 
 ![](../images/GlobalSurfaceTemp.png)
 
+*Figure 1: Yearly surface temperature compared to the 20th-century average from 1880–2022. Blue bars indicate cooler-than-average years; red bars show warmer-than-average years. NOAA Climate.gov graph, based on data from the National Centers for Environmental Information. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature#:~:text=January%2018%2C%202023-,Highlights,0.18%C2%B0%20C)%20per%20decade.*
+
 Now while this increase in temperature on the scale of single degrees may not seem significant, it could dramatically affect the global climate. This temperature is representative of the global average, and there is significant range in temperature from the hottest to the coldest places. Although we may experience slight variations in climate, a large portion of the warming is felt by arctic regions near the poles. Large increases in temperatures for these areas can be reflected by smaller increases in the global average.
 
 ![](../images/TempMap.png)
+
+*Figure 2: Intergovernmental Panel on Climate Change Special Report on Global Warming of 1.5º Celsius (2.7º Fahrenheit). https://www.ipcc.ch/sr15/*
 
 **Q5) With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)**
 
@@ -66,5 +75,11 @@ In looking at the equation, you likely identified that the only parameter which 
 Notice that as the emissivity approaches 1, the global temperature increases to 30 degrees Celsius. 
 
 ![](../images/EmissivityPlot.png)
+
+*Sources:*
+
+*Bohren, Craig F.; Clothiaux, Eugene E. (2006). "1.6 Emissivity and Global Warming". Fundamentals of Atmospheric Radiation. Chichester: John Wiley & Sons. pp. 31–41. ISBN 978-3-527-40503-9.*
+
+*Petty, Grant W. (2006). "6.4.3 Simple Radiative Models of the Atmosphere". A First Course in Atmospheric Radiation (2nd ed.). Madison, Wisconsin: Sundog Pub. pp. 139–143. ISBN 978-0-9729033-1-8.*
 
 **Want to add a last section which implements linear algebra**
