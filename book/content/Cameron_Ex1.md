@@ -20,11 +20,12 @@ Where \alpha is the solar absorptivity of the Earth, S is the solar energy reach
 Once solved, the equation should look like this: 
 (4) $T = \left[ \frac {s\alpha} {4\epsilon\sigma}\right ]^{1/4}$
 Here, we are assuming the Earth is a black body which means we assume it absorbs all infrared energy. Therefore, the emissivity factor, ϵ may be set equal to 1.
+
 **Q2) Solve this equation using the following values for the constants:**
  
-| S | a | ϵ | σ |
+| S $\left[\frac{W}{m^2}\right]$ | a [-] | ϵ [-] | σ $\left[\frac{W}{\frac{m^2}{K^4}}\right]$ |
 | ----------- | ----------- |-----|-----|
-| **1370 W/m^2** | **0.3** |   **1**  | **5.67*10^-8** |
+| **$1370$** | **$0.3$** |   **$1$**  | **$5.67*10^{-8}$** |
 
 After solving this equation, you should see that the temperature of the Earth is around **-18 degrees Celsius**. Intuitively, we know that this number is significantly lower than the real temperature of the earth. This is due to the Greenhouse Effect.
 
