@@ -4,59 +4,50 @@ Climate change is a phenomenon which most people have become very aware of in re
 
 ## The Simplest Climate Model 
 In order to understand how the climate is affected by human activity, we need to develop a model of the Earth’s temperature. We’ll start with the simplest case by considering the Earth to be a spherical black body absorbing radiation from the sun. We begin with a radiation balance problem where the energy absorbed by the Earth must be equal to the energy emitted (equation 1)
-"\n",
-    "```{math}\n",
-    ":label: radiationbalance\n",
-    "\P_a=P_e\n",
-    "```\n",
+
+(1) $P_a=P_e$
+
 These terms are further defined by equations 2 and 3 
-"\n",
-    "```{math}\n",
-    ":label: absorbedradiation\n",
-    "\P_a=\alpha\cdot S \cdot A_n,
-    "```\n",
-"\n",
-    "```{math}\n",
-    ":label: emittedradiation\n",
-    "P_e = \epsilon \cdot \sigma \cdot T^4 \cdot A_{tot},
-    "```\n",
+
+(2) $P_a=\alpha\cdot S \cdot A_n$
+
+(3) $P_e = \epsilon \cdot \sigma \cdot T^4 \cdot A_{tot}$
+
 Where \alpha is the solar absorptivity of the Earth, S is the solar energy reaching the Earth, and A_n is the surface area of the earth which is perpendicular to the sun (i.e. a circular cross section). In equation 3, ε_e is a measure of the emissivity of the earth, σ is the Stefan-Boltzmann constant, T is the temperature of the Earth, and A_tot is the total surface area of the planet (which we will model as a perfect sphere).
 
 **Q1) Using equations 1-3 and the area equations for a circle and a sphere, solve for the temperature of the Earth (T) using algebraic principles.** 
 
 Once solved, the equation should look like this: 
-"\n",
-    "```{math}\n",
-    ":label: BlackBodyTemp\n",
-    "T = \left[ \frac {s\alpha} {4\epsilon\sigma}\right ]^{1/4},
-    "```\n",
+(4) $T = \left[ \frac {s\alpha} {4\epsilon\sigma}\right ]^{1/4}$
 Here, we are assuming the Earth is a black body which means we assume it absorbs all infrared energy. Therefore, the emissivity factor, ϵ may be set equal to 1.
+
 **Q2) Solve this equation using the following values for the constants:**
  
-| S | a | ϵ | σ |
+| S $\left[\frac{W}{m^2}\right]$ | a [-] | ϵ [-] | σ $\left[\frac{W}{\frac{m^2}{K^4}}\right]$ |
 | ----------- | ----------- |-----|-----|
-| **1370 W/m^2** | **0.3** |   **1**  | **5.67*10^-8** |
+| **$1370$** | **$0.3$** |   **$1$**  | **$5.67*10^{-8}$** |
 
 After solving this equation, you should see that the temperature of the Earth is around **-18 degrees Celsius**. Intuitively, we know that this number is significantly lower than the real temperature of the earth. This is due to the Greenhouse Effect.
+
+*Sources:* 
+
+*Pennsylvania State University. (n.d.). Incoming Solar Radiation and the Earth's Energy Balance. Retrieved from https://www.e-education.psu.edu/earth104/node/1259#:~:text=Incoming%20and%20outgoing%20energy%20come,surface%20temperature%20of%20the%20Earth.*
+
 
 ## The Greenhouse Effect
 
 You have likely heard of the Greenhouse Effect in your science courses; it is the reason the surface of the Earth is warm enough to be inhabitable. The atmosphere acts as the walls of a greenhouse, letting the suns energy in while also making it more difficult for it to escape
 We will now attempt to account for this effect and change our model to better reflect reality. 
 We can refer to the temperature of the earth without an atmosphere and modeled as a black body as T_e (effective emission temperature). If we include another algebraic term which introduces the atmosphere and its effects on trapping heat, we come to the following equation.
-"\n",
-    "```{math}\n",
-    ":label: RadiationWithGreenhouse\n",
-    "T = \left[ \frac {s_0\alpha} {4\sigma} \frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4},
-    "```\n",
+
+(5) $T = \left[ \frac {s_0\alpha} {4\sigma} \frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4}$
+
 Now, look at this equation, and notice the first term in parentheses. You should be able to simplify using Equation 4. Explain the exponent rule which helps you to do this.
 
 After simplifying, you should have gotten the following: 
-"\n",
-    "```{math}\n",
-    ":label: RadiationWithGreenhouse\n",
-    "T_s = T_e\left[\frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4},
-    "```\n",
+
+(6) $T_s = T_e\left[\frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4}$
+
 Here, we see that our original equation has been modified by a term which is dependent on the emissivity of the atmosphere. 
 
 **Q3) Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)**
@@ -66,10 +57,15 @@ Here, we see that our original equation has been modified by a term which is dep
 After solving, you will notice that the average temperature of the earth is about **15 degrees Celsius**. This is about 1 degree warmer than the average global temperature in the 20th century, an increase that many climate scientists have contributed to human intervention.
 
 ![](../images/GlobalSurfaceTemp.png)
+<div style="text-align:center"><img src="GlobalSurfaceTemp.png" /></ div>
+
+*Figure 1: Yearly surface temperature compared to the 20th-century average from 1880–2022. Blue bars indicate cooler-than-average years; red bars show warmer-than-average years. NOAA Climate.gov graph, based on data from the National Centers for Environmental Information. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature#:~:text=January%2018%2C%202023-,Highlights,0.18%C2%B0%20C)%20per%20decade.*
 
 Now while this increase in temperature on the scale of single degrees may not seem significant, it could dramatically affect the global climate. This temperature is representative of the global average, and there is significant range in temperature from the hottest to the coldest places. Although we may experience slight variations in climate, a large portion of the warming is felt by arctic regions near the poles. Large increases in temperatures for these areas can be reflected by smaller increases in the global average.
 
 ![](../images/TempMap.png)
+
+*Figure 2: Intergovernmental Panel on Climate Change Special Report on Global Warming of 1.5º Celsius (2.7º Fahrenheit). https://www.ipcc.ch/sr15/*
 
 **Q5) With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)**
 
@@ -80,5 +76,11 @@ In looking at the equation, you likely identified that the only parameter which 
 Notice that as the emissivity approaches 1, the global temperature increases to 30 degrees Celsius. 
 
 ![](../images/EmissivityPlot.png)
+
+*Sources:*
+
+*Bohren, Craig F.; Clothiaux, Eugene E. (2006). "1.6 Emissivity and Global Warming". Fundamentals of Atmospheric Radiation. Chichester: John Wiley & Sons. pp. 31–41. ISBN 978-3-527-40503-9.*
+
+*Petty, Grant W. (2006). "6.4.3 Simple Radiative Models of the Atmosphere". A First Course in Atmospheric Radiation (2nd ed.). Madison, Wisconsin: Sundog Pub. pp. 139–143. ISBN 978-0-9729033-1-8.*
 
 **Want to add a last section which implements linear algebra**

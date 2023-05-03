@@ -63,6 +63,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/Cameron_Ex1';</script>
     <link rel="canonical" href="https://lars-quaedvlieg.github.io/Sustainability-High-School-Mathematics/content/Cameron_Ex1.html" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
@@ -558,62 +560,64 @@ title="Print to PDF"
 <p>Climate change is a phenomenon which most people have become very aware of in recent years. Although the Earth is subject to natural warming and cooling cycles, the warming that the planet is experiencing now has been attributed to human intervention, and specifically, the burning of fossil fuels for energy. Through this exercise, we aim to explore this phenomenon, and discover exactly how the Earth’s temperature is warming due to this human intervention, what implications it has on the future climate, and how we can lessen the negative impact.</p>
 <section id="the-simplest-climate-model">
 <h2>The Simplest Climate Model<a class="headerlink" href="#the-simplest-climate-model" title="Permalink to this headline">#</a></h2>
-<p>In order to understand how the climate is affected by human activity, we need to develop a model of the Earth’s temperature. We’ll start with the simplest case by considering the Earth to be a spherical black body absorbing radiation from the sun. We begin with a radiation balance problem where the energy absorbed by the Earth must be equal to the energy emitted (equation 1)
-“\n”,
-“<code class="docutils literal notranslate"><span class="pre">{math}\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;:label:</span> <span class="pre">radiationbalance\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;\P_a=P_e\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;</span></code>\n”,
-These terms are further defined by equations 2 and 3
-“\n”,
-“<code class="docutils literal notranslate"><span class="pre">{math}\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;:label:</span> <span class="pre">absorbedradiation\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;\P_a=\alpha\cdot</span> <span class="pre">S</span> <span class="pre">\cdot</span> <span class="pre">A_n,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;</span></code>\n”,
-“\n”,
-“<code class="docutils literal notranslate"><span class="pre">{math}\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;:label:</span> <span class="pre">emittedradiation\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;P_e</span> <span class="pre">=</span> <span class="pre">\epsilon</span> <span class="pre">\cdot</span> <span class="pre">\sigma</span> <span class="pre">\cdot</span> <span class="pre">T^4</span> <span class="pre">\cdot</span> <span class="pre">A_{tot},</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;</span></code>\n”,
-Where \alpha is the solar absorptivity of the Earth, S is the solar energy reaching the Earth, and A_n is the surface area of the earth which is perpendicular to the sun (i.e. a circular cross section). In equation 3, ε_e is a measure of the emissivity of the earth, σ is the Stefan-Boltzmann constant, T is the temperature of the Earth, and A_tot is the total surface area of the planet (which we will model as a perfect sphere).</p>
+<p>In order to understand how the climate is affected by human activity, we need to develop a model of the Earth’s temperature. We’ll start with the simplest case by considering the Earth to be a spherical black body absorbing radiation from the sun. We begin with a radiation balance problem where the energy absorbed by the Earth must be equal to the energy emitted (equation 1)</p>
+<p>(1) <span class="math notranslate nohighlight">\(P_a=P_e\)</span></p>
+<p>These terms are further defined by equations 2 and 3</p>
+<p>(2) <span class="math notranslate nohighlight">\(P_a=\alpha\cdot S \cdot A_n\)</span></p>
+<p>(3) <span class="math notranslate nohighlight">\(P_e = \epsilon \cdot \sigma \cdot T^4 \cdot A_{tot}\)</span></p>
+<p>Where \alpha is the solar absorptivity of the Earth, S is the solar energy reaching the Earth, and A_n is the surface area of the earth which is perpendicular to the sun (i.e. a circular cross section). In equation 3, ε_e is a measure of the emissivity of the earth, σ is the Stefan-Boltzmann constant, T is the temperature of the Earth, and A_tot is the total surface area of the planet (which we will model as a perfect sphere).</p>
 <p><strong>Q1) Using equations 1-3 and the area equations for a circle and a sphere, solve for the temperature of the Earth (T) using algebraic principles.</strong></p>
 <p>Once solved, the equation should look like this:
-“\n”,
-“<code class="docutils literal notranslate"><span class="pre">{math}\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;:label:</span> <span class="pre">BlackBodyTemp\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;T</span> <span class="pre">=</span> <span class="pre">\left[</span> <span class="pre">\frac</span> <span class="pre">{s\alpha}</span> <span class="pre">{4\epsilon\sigma}\right</span> <span class="pre">]^{1/4},</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;</span></code>\n”,
-Here, we are assuming the Earth is a black body which means we assume it absorbs all infrared energy. Therefore, the emissivity factor, ϵ may be set equal to 1.
-<strong>Q2) Solve this equation using the following values for the constants:</strong></p>
+(4) <span class="math notranslate nohighlight">\(T = \left[ \frac {s\alpha} {4\epsilon\sigma}\right ]^{1/4}\)</span>
+Here, we are assuming the Earth is a black body which means we assume it absorbs all infrared energy. Therefore, the emissivity factor, ϵ may be set equal to 1.</p>
+<p><strong>Q2) Solve this equation using the following values for the constants:</strong></p>
 <table class="colwidths-auto table">
 <thead>
-<tr class="row-odd"><th class="head"><p>S</p></th>
-<th class="head"><p>a</p></th>
-<th class="head"><p>ϵ</p></th>
-<th class="head"><p>σ</p></th>
+<tr class="row-odd"><th class="head"><p>S <span class="math notranslate nohighlight">\(\left[\frac{W}{m^2}\right]\)</span></p></th>
+<th class="head"><p>a [-]</p></th>
+<th class="head"><p>ϵ [-]</p></th>
+<th class="head"><p>σ <span class="math notranslate nohighlight">\(\left[\frac{W}{\frac{m^2}{K^4}}\right]\)</span></p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><strong>1370 W/m^2</strong></p></td>
-<td><p><strong>0.3</strong></p></td>
-<td><p><strong>1</strong></p></td>
-<td><p><strong>5.67*10^-8</strong></p></td>
+<tr class="row-even"><td><p><strong><span class="math notranslate nohighlight">\(1370\)</span></strong></p></td>
+<td><p><strong><span class="math notranslate nohighlight">\(0.3\)</span></strong></p></td>
+<td><p><strong><span class="math notranslate nohighlight">\(1\)</span></strong></p></td>
+<td><p><strong><span class="math notranslate nohighlight">\(5.67*10^{-8}\)</span></strong></p></td>
 </tr>
 </tbody>
 </table>
 <p>After solving this equation, you should see that the temperature of the Earth is around <strong>-18 degrees Celsius</strong>. Intuitively, we know that this number is significantly lower than the real temperature of the earth. This is due to the Greenhouse Effect.</p>
+<p><em>Sources:</em></p>
+<p><em>Pennsylvania State University. (n.d.). Incoming Solar Radiation and the Earth’s Energy Balance. Retrieved from https://www.e-education.psu.edu/earth104/node/1259#:~:text=Incoming%20and%20outgoing%20energy%20come,surface%20temperature%20of%20the%20Earth.</em></p>
 </section>
 <section id="the-greenhouse-effect">
 <h2>The Greenhouse Effect<a class="headerlink" href="#the-greenhouse-effect" title="Permalink to this headline">#</a></h2>
 <p>You have likely heard of the Greenhouse Effect in your science courses; it is the reason the surface of the Earth is warm enough to be inhabitable. The atmosphere acts as the walls of a greenhouse, letting the suns energy in while also making it more difficult for it to escape
 We will now attempt to account for this effect and change our model to better reflect reality.
-We can refer to the temperature of the earth without an atmosphere and modeled as a black body as T_e (effective emission temperature). If we include another algebraic term which introduces the atmosphere and its effects on trapping heat, we come to the following equation.
-“\n”,
-“<code class="docutils literal notranslate"><span class="pre">{math}\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;:label:</span> <span class="pre">RadiationWithGreenhouse\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;T</span> <span class="pre">=</span> <span class="pre">\left[</span> <span class="pre">\frac</span> <span class="pre">{s_0\alpha}</span> <span class="pre">{4\sigma}</span> <span class="pre">\frac{1}</span> <span class="pre">{1-\frac</span> <span class="pre">{\epsilon_a}{2}}{}\right</span> <span class="pre">]^{1/4},</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;</span></code>\n”,
-Now, look at this equation, and notice the first term in parentheses. You should be able to simplify using Equation 4. Explain the exponent rule which helps you to do this.</p>
-<p>After simplifying, you should have gotten the following:
-“\n”,
-“<code class="docutils literal notranslate"><span class="pre">{math}\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;:label:</span> <span class="pre">RadiationWithGreenhouse\n&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;T_s</span> <span class="pre">=</span> <span class="pre">T_e\left[\frac{1}</span> <span class="pre">{1-\frac</span> <span class="pre">{\epsilon_a}{2}}{}\right</span> <span class="pre">]^{1/4},</span>&#160;&#160;&#160;&#160; <span class="pre">&quot;</span></code>\n”,
-Here, we see that our original equation has been modified by a term which is dependent on the emissivity of the atmosphere.</p>
+We can refer to the temperature of the earth without an atmosphere and modeled as a black body as T_e (effective emission temperature). If we include another algebraic term which introduces the atmosphere and its effects on trapping heat, we come to the following equation.</p>
+<p>(5) <span class="math notranslate nohighlight">\(T = \left[ \frac {s_0\alpha} {4\sigma} \frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4}\)</span></p>
+<p>Now, look at this equation, and notice the first term in parentheses. You should be able to simplify using Equation 4. Explain the exponent rule which helps you to do this.</p>
+<p>After simplifying, you should have gotten the following:</p>
+<p>(6) <span class="math notranslate nohighlight">\(T_s = T_e\left[\frac{1} {1-\frac {\epsilon_a}{2}}{}\right ]^{1/4}\)</span></p>
+<p>Here, we see that our original equation has been modified by a term which is dependent on the emissivity of the atmosphere.</p>
 <p><strong>Q3) Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)</strong></p>
 <p><strong>Q4) Now given that the emissivity of the atmosphere is 0.78, solve for the true surface temperature of the earth.</strong></p>
 <p>After solving, you will notice that the average temperature of the earth is about <strong>15 degrees Celsius</strong>. This is about 1 degree warmer than the average global temperature in the 20th century, an increase that many climate scientists have contributed to human intervention.</p>
 <p><img alt="" src="../_images/GlobalSurfaceTemp.png" /></p>
+<div style="text-align:center"><img src="GlobalSurfaceTemp.png" /></ div>
+<p><em>Figure 1: Yearly surface temperature compared to the 20th-century average from 1880–2022. Blue bars indicate cooler-than-average years; red bars show warmer-than-average years. NOAA Climate.gov graph, based on data from the National Centers for Environmental Information. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature#:~:text=January%2018%2C%202023-,Highlights,0.18%C2%B0%20C)%20per%20decade.</em></p>
 <p>Now while this increase in temperature on the scale of single degrees may not seem significant, it could dramatically affect the global climate. This temperature is representative of the global average, and there is significant range in temperature from the hottest to the coldest places. Although we may experience slight variations in climate, a large portion of the warming is felt by arctic regions near the poles. Large increases in temperatures for these areas can be reflected by smaller increases in the global average.</p>
 <p><img alt="" src="../_images/TempMap.png" /></p>
+<p><em>Figure 2: Intergovernmental Panel on Climate Change Special Report on Global Warming of 1.5º Celsius (2.7º Fahrenheit). https://www.ipcc.ch/sr15/</em></p>
 <p><strong>Q5) With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)</strong></p>
 <p>In looking at the equation, you likely identified that the only parameter which human intervention may have effected is ϵ, the emissivity of the atmosphere.</p>
 <p><strong>Q6) Solve the equation for varying levels of emissivity, and see if you can identify a relationship between the emissivity and the global temperature.</strong></p>
 <p>Notice that as the emissivity approaches 1, the global temperature increases to 30 degrees Celsius.</p>
 <p><img alt="" src="../_images/EmissivityPlot.png" /></p>
+<p><em>Sources:</em></p>
+<p><em>Bohren, Craig F.; Clothiaux, Eugene E. (2006). “1.6 Emissivity and Global Warming”. Fundamentals of Atmospheric Radiation. Chichester: John Wiley &amp; Sons. pp. 31–41. ISBN 978-3-527-40503-9.</em></p>
+<p><em>Petty, Grant W. (2006). “6.4.3 Simple Radiative Models of the Atmosphere”. A First Course in Atmospheric Radiation (2nd ed.). Madison, Wisconsin: Sundog Pub. pp. 139–143. ISBN 978-0-9729033-1-8.</em></p>
 <p><strong>Want to add a last section which implements linear algebra</strong></p>
 </section>
 </section>

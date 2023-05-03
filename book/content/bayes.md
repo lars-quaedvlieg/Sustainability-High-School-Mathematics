@@ -61,7 +61,7 @@ Il y a donc 56% de patients non vaccinés et 44% totalement ou partiellement vac
 
 On note $V$ l'évènement "une personne tirée au hasard est vaccinée". On note $H$ l'évènement "une personne tirée au hasard est admise à l'hôpital".
 
-2. Sachant qu'une personne a été admise à l'hôpital, quelle est la probabilité que cette personne soit vaccinée? 
+2. Sachant qu'une personne a été admise à l'hôpital, quelle est la probabilité que cette personne soit vaccinée? Et non vaccinée? 
 3. De quel type de probabilité s'agit t-il?
 
 A ce moment, la France est à $90\%$ vaccinée. On pourra considérer qu'il y a 6000 hospitalisations sur la population de 60 millions d'habitants.
