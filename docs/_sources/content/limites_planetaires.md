@@ -8,7 +8,7 @@ Sujet : Equations différentielles - Limites- Stabilité de l'équation
 | ----------- | ----------- |-----|-----|
 |  |  |     | **x** |
 
-On cherche à étudier l'évolution de la quantité d'une ressource qui se renouvelle et qui est consommée, par exemple le bois issus des arbres. 
+On cherche à étudier l'évolution de la quantité d'une ressource qui se renouvelle et qui est consommée, par exemple le bois issu des arbres. 
 On note $Q$ la quantité initiale et $q(t)$ la fonction qui décrit la quantité en fonction du temps. On suppose que la ressource se renouvelle avec un taux $\alpha$ et qu'elle se consomme avec un taux $\beta$.
 Chaque année $t$, on consomme donc  $\beta q(t)$ de la ressource, et une quantité $\alpha q(t)$ a été produite. 
 On peut écrire que pour tout temps $t \in \mathbb{R}^+$ l'évolution de la quantité $q(t)$ est régie par l'équation différentielle suivante:
@@ -21,7 +21,7 @@ $ q'(t) = \alpha q(t) - \beta q(t) = (\alpha - \beta) q(t)$
 3. Quelle est la limite de $q(t)$ en $+  \infty$ pour $\tau>0$ ? Pour $\tau<0$ ? Que se passe t'il pour $\tau=0$ ? 
 4. Expliquer ce que chacun des 3 cas représente et tracer $q$ en fonction de $t$ pour chaque cas
 
-5. Quel est le risque de consommer plus de ressource que ce que l'on produit? Mathématiquement quelles sont les solutions pour résoudre ce problème.
+5. Quel est le risque de consommer plus de ressources que ce que l'on produit? Mathématiquement quelles sont les solutions pour résoudre ce problème?
 
 En réalité, $\alpha$ et $\beta$ dépendent eux aussi du temps, en particulier la consommation qui n'est pas toujours la même. Ces cas là sont n'ont en général pas de solutions générales.
 Cependant, est possible de les résoudre à l'ordinateur (voir activité à ce sujet).
@@ -35,11 +35,11 @@ Sujet : Equations différentielles - Stabilité de l'équation
 | ----------- | ----------- |-----|-----|
 |  |  |     | **x** |
 
-Certaines espèces sont considérées comme nuisible pour l'Homme, c'est le cas de certains moustiques ou certaines mouches. Pourtant ces insectes font partis d'un cycle alimentaire entre proie et prédateurs qu'il faut préserver. 
-Certains pays tentent donc de réguler les populations des nuisibles. Soit $N$ le nombre initiale de nuisible, on note $f(t)$ la fonction qui décrit l'évolution de la population en fonction du temps. Cette population a un taux de natalité $\alpha$ et un taux de mortalité $\beta$.
+Certaines espèces sont considérées comme nuisible pour l'Homme, c'est le cas de certains moustiques ou certaines mouches.  
+Certains pays tentent donc de réguler les populations des nuisibles. Pourtant ces insectes font partis d'un cycle alimentaire entre proie et prédateurs qu'il faut préserver. Soit $N$ le nombre initial de nuisible, on note $f(t)$ la fonction qui décrit l'évolution de la population en fonction du temps. Cette population a un taux de natalité $\alpha$ et un taux de mortalité $\beta$.
 En l'absence de l'homme, l'évolution de la fonction $f$ suit l'équation différentielle suivante : 
 
-$ f'(t) = \alpha f(t) - \beta f(t) = (\alpha - \beta) f(t)$
+$ f'(t) = \alpha f(t) - \beta f(t) = (\alpha - \beta) f(t) $
 
 1. De quel type d'équation différentielle s'agit-il? La mettre sous forme canonique. 
 2. En notant $\tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
@@ -85,13 +85,13 @@ Le graphique suivant montre une solution de l'équation différentielle étudié
 ![](../images/capacity.png) 
 
 
-$k$ représente la limite du nombre d'individus avec la production des ressources d'un environnement.
+$K$ représente la limite du nombre d'individus avec la production des ressources d'un environnement.
 Une population peut dépasser $K$ en stockant et en consommant plus de ressourses que l'environnement peut en fournir.
 Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources stockées ne sont pas éternelles, on obtient des oscillations du nombre d'individus comme sur la courbe ci-dessous:
 
 ![](../images/limite.gif)
 
 4. Placer sur le graphique $N$ le nombre initial d'individu et $K$. Repérer des zones où $f(t)<K$ , $f(t)>K$ 
-5. Une population peut-elle indéfiniement consommer plus de ressources qu'elle n'en produit?
+5. Une population peut-elle indéfiniment consommer plus de ressources qu'elle n'en produit?
 
 Note: A comparer avec une croissance infinie : $f'(t) = rf(t)$ avec $r>0$. Possibilités de continuer l'activité via une simulation

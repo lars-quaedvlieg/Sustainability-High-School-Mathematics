@@ -1,4 +1,4 @@
-# Windmill
+# Eoliennes
 ## **Pourquoi les éoliennes ne tournent pas si vite ? – Version longue :** (Etienne)
 
 Sujet : polynômes et dérivation
