@@ -15,7 +15,7 @@ parts:
       - file: content/equadif
       - file: content/equadif_simu
       - file: content/proba
-
+      - file: content/derivation
       #- file: content/first_set_etienne
       #- file: content/windmill_etienne
       #- file: content/predator-prey
