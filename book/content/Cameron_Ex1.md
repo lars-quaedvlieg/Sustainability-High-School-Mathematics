@@ -1,5 +1,7 @@
 # The Greenhouse effect and Earth's Temperature Model
 
+Auteur : Cameron
+
 Climate change is a phenomenon which most people have become very aware of in recent years. Although the Earth is subject to natural warming and cooling cycles, the warming that the planet is experiencing now has been attributed to human intervention, and specifically, the burning of fossil fuels for energy. Through this exercise, we aim to explore this phenomenon, and discover exactly how the Earth's temperature is warming due to this human intervention, what implications it has on the future climate, and how we can lessen the negative impact. 
 
 ## The Simplest Climate Model 
@@ -57,7 +59,7 @@ Here, we see that our original equation has been modified by a term which is dep
 After solving, you will notice that the average temperature of the earth is about **15 degrees Celsius**. This is about 1 degree warmer than the average global temperature in the 20th century, an increase that many climate scientists have contributed to human intervention.
 
 ![](../images/GlobalSurfaceTemp.png)
-<div style="text-align:center"><img src="GlobalSurfaceTemp.png" /></ div>
+<div style="text-align:center"><img src="GlobalSurfaceTemp.png" /> </div>
 
 *Figure 1: Yearly surface temperature compared to the 20th-century average from 1880–2022. Blue bars indicate cooler-than-average years; red bars show warmer-than-average years. NOAA Climate.gov graph, based on data from the National Centers for Environmental Information. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature#:~:text=January%2018%2C%202023-,Highlights,0.18%C2%B0%20C)%20per%20decade.*
 

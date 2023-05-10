@@ -10,12 +10,18 @@ parts:
       - file: content/user_guide
   - caption: Content
     chapters:
-      - file: content/first_set_etienne
-      - file: content/windmill_etienne
-      - file: content/predator-prey
-      - file: content/limites_planetaires
-      - file: content/bayes
-      - file: content/Cameron_Ex1
+      - file: content/polynoms
+      - file: content/suites
+      - file: content/equadif
+      - file: content/equadif_simu
+      - file: content/proba
+
+      #- file: content/first_set_etienne
+      #- file: content/windmill_etienne
+      #- file: content/predator-prey
+      #- file: content/limites_planetaires
+      #- file: content/bayes
+      #- file: content/Cameron_Ex1
 
 # This is the example from my other book:
 

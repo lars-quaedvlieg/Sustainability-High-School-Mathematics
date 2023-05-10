@@ -1,4 +1,4 @@
-# Eoliennes
+# Polynômes
 
 ## **Pourquoi les éoliennes ne tournent pas si vite ? – Version longue :** 
 

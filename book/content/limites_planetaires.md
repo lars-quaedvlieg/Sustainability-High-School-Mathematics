@@ -1,7 +1,8 @@
 # Limites planétaires
 
-## **Evolution d'une ressource**: (Etienne)
+## **Evolution d'une ressource**: 
 
+Auteur : Etienne
 Sujet : Equations différentielles - Limites- Stabilité de l'équation
 
 | 1e | 2e | 3e  | 4e  |
@@ -27,8 +28,9 @@ En réalité, $\alpha$ et $\beta$ dépendent eux aussi du temps, en particulier 
 Cependant, est possible de les résoudre à l'ordinateur (voir activité à ce sujet).
 
 
-## **Gestion d'une population de nuisibles**: (Etienne)
+## **Gestion d'une population de nuisibles**: 
 
+Auteur : Etienne
 Sujet : Equations différentielles - Stabilité de l'équation
 
 | 1e | 2e | 3e  | 4e  |
@@ -95,3 +97,5 @@ Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources s
 5. Une population peut-elle indéfiniment consommer plus de ressources qu'elle n'en produit?
 
 Note: A comparer avec une croissance infinie : $f'(t) = rf(t)$ avec $r>0$. Possibilités de continuer l'activité via une simulation
+
+

@@ -1,3 +1,4 @@
+# Probabilités
 # Loi de Bayes et Fake news
 
 Les exercices suivants ne traitent pas à proprement parlé de la soutenabilité mais permettent d'expliquer la nécessité un regard critique et scientifique face à certaines affirmations apparement justes.

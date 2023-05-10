@@ -4,7 +4,9 @@ Les exercices suivants ne traitent pas à proprement parlé de la soutenabilité
 Les exercices peuvent facilement être adaptés sur un sujet autre (par exemple des chiffres sur la déforestation ou la pollution).
 
 
-## **Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :** (Etienne)
+## **Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :**
+
+Auteur : Etienne
 Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance
 
 Source : <https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-a-lhopital-18-11-2021-4OUPPBEWANBRXMC6EIZWS725CU.php>
@@ -42,8 +44,9 @@ Source : Le Parisien
 
 Deuxième version avec des sources différentes:
 
-## **Le paradoxe de Simpson, aborder les chiffres avec recul :** (Etienne)
+## **Le paradoxe de Simpson, aborder les chiffres avec recul :** 
 
+Auteur : Etienne
 Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance
 
 Source : <https://www.lemonde.fr/les-decodeurs/article/2022/01/04/covid-19-la-majorite-des-patients-en-reanimation-sont-bien-non-vaccines_6108190_4355770.html>

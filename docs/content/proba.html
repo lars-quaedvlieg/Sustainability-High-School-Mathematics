@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Limites planétaires &#8212; Sustainability in High School Mathematics</title>
+    <title>Probabilités &#8212; Sustainability in High School Mathematics</title>
   
   
   
@@ -65,11 +65,12 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'content/limites_planetaires';</script>
-    <link rel="canonical" href="https://lars-quaedvlieg.github.io/Sustainability-High-School-Mathematics/content/limites_planetaires.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/proba';</script>
+    <link rel="canonical" href="https://lars-quaedvlieg.github.io/Sustainability-High-School-Mathematics/content/proba.html" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Equations différentielles simulation" href="equadif_simu.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
   </head>
@@ -190,8 +191,8 @@ const thebe_selector_output = ".output, .cell_output"
                     </li>
                 
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="proba.html">
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
                         Probabilités
                       </a>
                     </li>
@@ -316,8 +317,8 @@ const thebe_selector_output = ".output, .cell_output"
                     </li>
                 
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="proba.html">
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
                         Probabilités
                       </a>
                     </li>
@@ -401,7 +402,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Content</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="polynoms.html">Polynômes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="suites.html">Evolution du carbone dans l’atmosphère</a></li>
 <li class="toctree-l1"><a class="reference internal" href="equadif.html">Equations différentielles</a></li>
@@ -409,7 +410,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <li class="toctree-l1"><a class="reference internal" href="equadif_simu.html">Equations différentielles simulation</a></li>
 
-<li class="toctree-l1"><a class="reference internal" href="proba.html">Probabilités</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Probabilités</a></li>
 
 </ul>
 
@@ -471,7 +472,7 @@ title="Fullscreen mode"
     <i class="fas fa-download"></i>
   </button>
   <ul class="dropdown-menu">
-      <li><a href="../_sources/content/limites_planetaires.md" target="_blank"
+      <li><a href="../_sources/content/proba.md" target="_blank"
    class="btn btn-sm dropdown-item"
    data-toggle="tooltip"
 data-placement="left"
@@ -514,7 +515,7 @@ title="Print to PDF"
             
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Limites planétaires</h1>
+    <h1>Probabilités</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -524,29 +525,31 @@ title="Print to PDF"
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#evolution-d-une-ressource">
-   <strong>
-    Evolution d’une ressource
-   </strong>
-   :
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Probabilités
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#gestion-d-une-population-de-nuisibles">
-   <strong>
-    Gestion d’une population de nuisibles
-   </strong>
-   :
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#loi-de-bayes-et-fake-news">
+   Loi de Bayes et Fake news
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#limite-de-la-croissance-d-une-population-etienne">
-   <strong>
-    Limite de la croissance d’une population
-   </strong>
-   : (Etienne)
-  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-admis-a-lhopital">
+     <strong>
+      Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :
+     </strong>
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#le-paradoxe-de-simpson-aborder-les-chiffres-avec-recul">
+     <strong>
+      Le paradoxe de Simpson, aborder les chiffres avec recul :
+     </strong>
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -557,128 +560,104 @@ title="Print to PDF"
 
             <article class="bd-article" role="main">
               
-  <section class="tex2jax_ignore mathjax_ignore" id="limites-planetaires">
-<h1>Limites planétaires<a class="headerlink" href="#limites-planetaires" title="Permalink to this headline">#</a></h1>
-<section id="evolution-d-une-ressource">
-<h2><strong>Evolution d’une ressource</strong>:<a class="headerlink" href="#evolution-d-une-ressource" title="Permalink to this headline">#</a></h2>
-<p>Auteur : Etienne
-Sujet : Equations différentielles - Limites- Stabilité de l’équation</p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="head"><p>1e</p></th>
-<th class="head"><p>2e</p></th>
-<th class="head"><p>3e</p></th>
-<th class="head"><p>4e</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>x</strong></p></td>
-</tr>
-</tbody>
-</table>
-<p>On cherche à étudier l’évolution de la quantité d’une ressource qui se renouvelle et qui est consommée, par exemple le bois issu des arbres.
-On note <span class="math notranslate nohighlight">\(Q\)</span> la quantité initiale et <span class="math notranslate nohighlight">\(q(t)\)</span> la fonction qui décrit la quantité en fonction du temps. On suppose que la ressource se renouvelle avec un taux <span class="math notranslate nohighlight">\(\alpha\)</span> et qu’elle se consomme avec un taux <span class="math notranslate nohighlight">\(\beta\)</span>.
-Chaque année <span class="math notranslate nohighlight">\(t\)</span>, on consomme donc  <span class="math notranslate nohighlight">\(\beta q(t)\)</span> de la ressource, et une quantité <span class="math notranslate nohighlight">\(\alpha q(t)\)</span> a été produite.
-On peut écrire que pour tout temps <span class="math notranslate nohighlight">\(t \in \mathbb{R}^+\)</span> l’évolution de la quantité <span class="math notranslate nohighlight">\(q(t)\)</span> est régie par l’équation différentielle suivante:</p>
-<p><span class="math notranslate nohighlight">\( q'(t) = \alpha q(t) - \beta q(t) = (\alpha - \beta) q(t)\)</span></p>
-<ol class="arabic simple">
-<li><p>De quel type d’équation différentielle s’agit-il? La mettre sous forme canonique.</p></li>
-<li><p>En notant <span class="math notranslate nohighlight">\(\tau = \alpha - \beta\)</span> et en utilisant les conditions initiales, résoudre l’équation.</p></li>
-<li><p>Que représente <span class="math notranslate nohighlight">\(\tau\)</span>?</p></li>
-<li><p>Quelle est la limite de <span class="math notranslate nohighlight">\(q(t)\)</span> en <span class="math notranslate nohighlight">\(+  \infty\)</span> pour <span class="math notranslate nohighlight">\(\tau&gt;0\)</span> ? Pour <span class="math notranslate nohighlight">\(\tau&lt;0\)</span> ? Que se passe t’il pour <span class="math notranslate nohighlight">\(\tau=0\)</span> ?</p></li>
-<li><p>Expliquer ce que chacun des 3 cas représente et tracer <span class="math notranslate nohighlight">\(q\)</span> en fonction de <span class="math notranslate nohighlight">\(t\)</span> pour chaque cas</p></li>
-<li><p>Quel est le risque de consommer plus de ressources que ce que l’on produit? Mathématiquement quelles sont les solutions pour résoudre ce problème?</p></li>
-</ol>
-<p>En réalité, <span class="math notranslate nohighlight">\(\alpha\)</span> et <span class="math notranslate nohighlight">\(\beta\)</span> dépendent eux aussi du temps, en particulier la consommation qui n’est pas toujours la même. Ces cas là sont n’ont en général pas de solutions générales.
-Cependant, est possible de les résoudre à l’ordinateur (voir activité à ce sujet).</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="probabilites">
+<h1>Probabilités<a class="headerlink" href="#probabilites" title="Permalink to this headline">#</a></h1>
 </section>
-<section id="gestion-d-une-population-de-nuisibles">
-<h2><strong>Gestion d’une population de nuisibles</strong>:<a class="headerlink" href="#gestion-d-une-population-de-nuisibles" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="loi-de-bayes-et-fake-news">
+<h1>Loi de Bayes et Fake news<a class="headerlink" href="#loi-de-bayes-et-fake-news" title="Permalink to this headline">#</a></h1>
+<p>Les exercices suivants ne traitent pas à proprement parlé de la soutenabilité mais permettent d’expliquer la nécessité un regard critique et scientifique face à certaines affirmations apparement justes.
+Les exercices peuvent facilement être adaptés sur un sujet autre (par exemple des chiffres sur la déforestation ou la pollution).</p>
+<section id="covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-admis-a-lhopital">
+<h2><strong>Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :</strong><a class="headerlink" href="#covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-admis-a-lhopital" title="Permalink to this headline">#</a></h2>
 <p>Auteur : Etienne
-Sujet : Equations différentielles - Stabilité de l’équation</p>
+Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance</p>
+<p>Source : <a class="reference external" href="https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-a-lhopital-18-11-2021-4OUPPBEWANBRXMC6EIZWS725CU.php">https://www.leparisien.fr/societe/covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-a-lhopital-18-11-2021-4OUPPBEWANBRXMC6EIZWS725CU.php</a></p>
 <table class="colwidths-auto table">
 <thead>
-<tr class="row-odd"><th class="head"><p>1e</p></th>
-<th class="head"><p>2e</p></th>
-<th class="head"><p>3e</p></th>
-<th class="head"><p>4e</p></th>
+<tr class="row-odd"><th class="head"><p><strong>1e</strong></p></th>
+<th class="head"><p><strong>2e</strong></p></th>
+<th class="head"><p><strong>3e</strong></p></th>
+<th class="head"><p><strong>4e</strong></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="row-even"><td><p></p></td>
 <td><p></p></td>
-<td><p></p></td>
+<td><p><strong>x</strong></p></td>
 <td><p><strong>x</strong></p></td>
 </tr>
 </tbody>
 </table>
-<p>Certaines espèces sont considérées comme nuisible pour l’Homme, c’est le cas de certains moustiques ou certaines mouches.<br />
-Certains pays tentent donc de réguler les populations des nuisibles. Pourtant ces insectes font partis d’un cycle alimentaire entre proie et prédateurs qu’il faut préserver. Soit <span class="math notranslate nohighlight">\(N\)</span> le nombre initial de nuisible, on note <span class="math notranslate nohighlight">\(f(t)\)</span> la fonction qui décrit l’évolution de la population en fonction du temps. Cette population a un taux de natalité <span class="math notranslate nohighlight">\(\alpha\)</span> et un taux de mortalité <span class="math notranslate nohighlight">\(\beta\)</span>.
-En l’absence de l’homme, l’évolution de la fonction <span class="math notranslate nohighlight">\(f\)</span> suit l’équation différentielle suivante :</p>
-<p><span class="math notranslate nohighlight">\( f'(t) = \alpha f(t) - \beta f(t) = (\alpha - \beta) f(t) \)</span></p>
+<p>Fin octobre 2021, le nombre de personnes vaccinées du covid dépasse le nombre de personnes non vaccinées dans les hopitaux français:</p>
+<p><img alt="" src="../_images/parisien_1.png" /></p>
+<p>Source : Le Parisien</p>
 <ol class="arabic simple">
-<li><p>De quel type d’équation différentielle s’agit-il? La mettre sous forme canonique.</p></li>
-<li><p>En notant <span class="math notranslate nohighlight">\(\tau = \alpha - \beta\)</span> et en utilisant les conditions initiales, résoudre l’équation.</p></li>
-<li><p>Faire une hypothèse sur le signe de <span class="math notranslate nohighlight">\(\tau = \alpha - \beta\)</span> et calculer la limite de <span class="math notranslate nohighlight">\(f\)</span> en <span class="math notranslate nohighlight">\(+  \infty\)</span>.</p></li>
-<li><p>Tracer la courbe pour une valeur de $\tau positive.</p></li>
+<li><p>Peut-on en conclure, comme cela a pu être déclaré, qu’il s’agit d’une preuve que les vaccins ne sont pas efficaces?</p></li>
 </ol>
-<p>On suppose maintenant que l’Homme chasse un taux <span class="math notranslate nohighlight">\(\delta\)</span> de nuisible en fonction du temps. La nouvelle équation est donc:</p>
-<p>$ f’(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t)</p>
-<ol class="arabic simple" start="5">
-<li><p>On note maintenant <span class="math notranslate nohighlight">\(\gamma = \alpha - \beta - \delta\)</span>. Que signifie <span class="math notranslate nohighlight">\(\gamma\)</span> négatif ?</p></li>
-<li><p>Réécrire la solution de l’équation différentielle en fonction de <span class="math notranslate nohighlight">\(\gamma\)</span>.</p></li>
-<li><p>Quelle est la limite de <span class="math notranslate nohighlight">\(f\)</span> en <span class="math notranslate nohighlight">\(+  \infty\)</span> si <span class="math notranslate nohighlight">\(\gamma&lt;0\)</span>?</p></li>
-<li><p>A quoi correspond le cas <span class="math notranslate nohighlight">\(\gamma=0\)</span> ? ( Mathématiquement et dans la vraie vie)</p></li>
-<li><p>Qualitativement, comment devrait évoluer <span class="math notranslate nohighlight">\(\gamma\)</span> pour avoir une politique de gestion efficace ? Quel est le risque de vouloir gérer une population via la chasse?</p></li>
+<p>A ce moment là, la France est à <span class="math notranslate nohighlight">\(90\%\)</span> vaccinées. On note <span class="math notranslate nohighlight">\(V\)</span> l’évènement “une personne tirée au hasard est vaccinée”.</p>
+<ol class="arabic simple" start="2">
+<li><p>Que vaut <span class="math notranslate nohighlight">\(P(V)\)</span> ? Que vaut et que représente <span class="math notranslate nohighlight">\(P(\bar{V})\)</span>? De quelle loi de probabilité s’agit-il?</p></li>
 </ol>
-</section>
-<section id="limite-de-la-croissance-d-une-population-etienne">
-<h2><strong>Limite de la croissance d’une population</strong>: (Etienne)<a class="headerlink" href="#limite-de-la-croissance-d-une-population-etienne" title="Permalink to this headline">#</a></h2>
-<p>Sujet : Limite - Equations différentielles</p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="head"><p>1e</p></th>
-<th class="head"><p>2e</p></th>
-<th class="head"><p>3e</p></th>
-<th class="head"><p>4e</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>x</strong></p></td>
-</tr>
-</tbody>
-</table>
-<p>Source : https://fr.wikipedia.org/wiki/Dynamique_des_populations and https://en.wikipedia.org/wiki/Logistic_function#In_ecology:_modeling_population_growth</p>
-<p>On souhaite décrire l’évolution d’une population dans un environnement donné. On note <span class="math notranslate nohighlight">\(N\)</span> le nombre d’individus initialement et <span class="math notranslate nohighlight">\(f(t)\)</span> la fonction qui décrit l’évolution de la population en fonction du temps.
-On suppose que l’environnement peut accueillir <span class="math notranslate nohighlight">\(K\)</span> individus en terme de ressources et que la population évolue à un taux <span class="math notranslate nohighlight">\(r\)</span> (taux de naissance moins taux de décés).
-On peut décrire <span class="math notranslate nohighlight">\(f\)</span> avec l’équation différentielle suivante:</p>
-<p><span class="math notranslate nohighlight">\( f'(t) = rf(t) (\frac{K-f(t)}{K})= r f(t) (1-\frac{f(t)}{K}) \)</span></p>
-<ol class="arabic simple">
-<li><p>Que représente le cas où <span class="math notranslate nohighlight">\(f(t)&lt;K\)</span> ? Quel est le signe de <span class="math notranslate nohighlight">\(f'\)</span> dans ce cas? Comment va évoluer <span class="math notranslate nohighlight">\(f\)</span>?</p></li>
-<li><p>Que représente le cas où <span class="math notranslate nohighlight">\(f(t)&gt;K\)</span> ? Quel est le signe de <span class="math notranslate nohighlight">\(f'\)</span> dans ce cas? Comment va évoluer <span class="math notranslate nohighlight">\(f\)</span>?</p></li>
-</ol>
-<p>Cette équation a pour solution en fonction de N:</p>
-<p><span class="math notranslate nohighlight">\(f(t) = \frac{K N e^{rt}}{K + N \left( e^{rt} - 1\right)} = \frac{K}{1+\left(\frac{K-N}{N}\right)e^{-rt}}\)</span></p>
+<p>On estime à <span class="math notranslate nohighlight">\(0,001\)</span> la probabilité d’être hospitalisé chaque jour pour une personne vaccinée et à <span class="math notranslate nohighlight">\(0,0001\)</span> pour une personne non vaccinée.
+On note <span class="math notranslate nohighlight">\(H\)</span> l’évènement “la personne tirée est hospitalisée”.</p>
 <ol class="arabic simple" start="3">
-<li><p>Calculer la limite de la fonction en <span class="math notranslate nohighlight">\(+ \inf\)</span>. Commenter.
-Le graphique suivant montre une solution de l’équation différentielle étudiée plus haut:</p></li>
+<li><p>De quel type de probabilités s’agit-il?</p></li>
+<li><p>Quelle est la probabilité qu’une personne soit hospitalisée et vaccinée ? Hospitalisée et non vaccinée?</p></li>
+<li><p>Comparer ces valeurs</p></li>
+<li><p>En moyenne sur 10 millions de personnes, combien de personnes vaccinées et non-vaccinées seront hospitalisées? Conclure sur ce paradoxe</p></li>
 </ol>
-<p><img alt="" src="../_images/capacity.png" /></p>
-<p><span class="math notranslate nohighlight">\(K\)</span> représente la limite du nombre d’individus avec la production des ressources d’un environnement.
-Une population peut dépasser <span class="math notranslate nohighlight">\(K\)</span> en stockant et en consommant plus de ressourses que l’environnement peut en fournir.
-Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources stockées ne sont pas éternelles, on obtient des oscillations du nombre d’individus comme sur la courbe ci-dessous:</p>
-<p><img alt="" src="../_images/limite.gif" /></p>
+<p>Solution en image :</p>
+<p><img alt="" src="../_images/parisien_solution.jpg" /></p>
+<p>Source : Le Parisien</p>
+<p>Deuxième version avec des sources différentes:</p>
+</section>
+<section id="le-paradoxe-de-simpson-aborder-les-chiffres-avec-recul">
+<h2><strong>Le paradoxe de Simpson, aborder les chiffres avec recul :</strong><a class="headerlink" href="#le-paradoxe-de-simpson-aborder-les-chiffres-avec-recul" title="Permalink to this headline">#</a></h2>
+<p>Auteur : Etienne
+Sujet : Loi de Bayes, probabilité conditionelle, loi uniforme et espérance</p>
+<p>Source : <a class="reference external" href="https://www.lemonde.fr/les-decodeurs/article/2022/01/04/covid-19-la-majorite-des-patients-en-reanimation-sont-bien-non-vaccines_6108190_4355770.html">https://www.lemonde.fr/les-decodeurs/article/2022/01/04/covid-19-la-majorite-des-patients-en-reanimation-sont-bien-non-vaccines_6108190_4355770.html</a></p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>1e</strong></p></th>
+<th class="head"><p><strong>2e</strong></p></th>
+<th class="head"><p><strong>3e</strong></p></th>
+<th class="head"><p><strong>4e</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p><strong>x</strong></p></td>
+<td><p><strong>x</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>Dans un article du Monde, on peut lire les chiffres des admissions à l’hôpital pour le Covid au 31 mai 2021 :
+“Les non-vaccinés ne représentent « que » 56 % des hospitalisations conventionnelles, contre 38 % pour les personnes complètement vaccinées.”</p>
+<p>Il y a donc 56% de patients non vaccinés et 44% totalement ou partiellement vaccinés.</p>
+<ol class="arabic simple">
+<li><p>A première vue, est-ce que cela signifie qu’on a presque autant de chance d’aller à l’hôpital en étant vacciné que non vacciné?</p></li>
+</ol>
+<p>On note <span class="math notranslate nohighlight">\(V\)</span> l’évènement “une personne tirée au hasard est vaccinée”. On note <span class="math notranslate nohighlight">\(H\)</span> l’évènement “une personne tirée au hasard est admise à l’hôpital”.</p>
+<ol class="arabic simple" start="2">
+<li><p>Sachant qu’une personne a été admise à l’hôpital, quelle est la probabilité que cette personne soit vaccinée? Et non vaccinée?</p></li>
+<li><p>De quel type de probabilité s’agit t-il?</p></li>
+</ol>
+<p>A ce moment, la France est à <span class="math notranslate nohighlight">\(90\%\)</span> vaccinée. On pourra considérer qu’il y a 6000 hospitalisations sur la population de 60 millions d’habitants.</p>
 <ol class="arabic simple" start="4">
-<li><p>Placer sur le graphique <span class="math notranslate nohighlight">\(N\)</span> le nombre initial d’individu et <span class="math notranslate nohighlight">\(K\)</span>. Repérer des zones où <span class="math notranslate nohighlight">\(f(t)&lt;K\)</span> , <span class="math notranslate nohighlight">\(f(t)&gt;K\)</span></p></li>
-<li><p>Une population peut-elle indéfiniment consommer plus de ressources qu’elle n’en produit?</p></li>
+<li><p>Que vaut <span class="math notranslate nohighlight">\(P(V)\)</span>, <span class="math notranslate nohighlight">\(P(\bar{V})\)</span>? Que vaut <span class="math notranslate nohighlight">\(P(H)\)</span>?</p></li>
+<li><p>En utilisant la loi de Bayes, calculer la probabilité d’être hospitalisé en étant vacciné: <span class="math notranslate nohighlight">\(P_V(H)\)</span>. Faire le même calcul pour une personne non vaccinée <span class="math notranslate nohighlight">\(P_{\bar{V}}(H)\)</span>.</p></li>
+<li><p>Comparer les deux valeurs et conclure sur l’efficacité des vaccins d’après ces chiffres.</p></li>
 </ol>
-<p>Note: A comparer avec une croissance infinie : <span class="math notranslate nohighlight">\(f'(t) = rf(t)\)</span> avec <span class="math notranslate nohighlight">\(r&gt;0\)</span>. Possibilités de continuer l’activité via une simulation</p>
+<p><strong>Bonus</strong>: En réalité la probabilité d’être hospitalisé <span class="math notranslate nohighlight">\(P(H)\)</span> n’est pas nécessaire pour conclure. Faire la même comparaison en faisant disparaitre <span class="math notranslate nohighlight">\(P(H)\)</span> des calculs.
+(Calculer le rapport des deux probabilités)</p>
+<p>Explication :
+Une statistique ne nous dit pas qu’elle était la population de départ. Lorsque l’on regarde un chiffre, il faut réfléchir sur la population qui a donné cette probabilité.
+Dans notre cas, si on regarde juste à l’hôpital:</p>
+<p><img alt="" src="../_images/lemonde_1.png" /></p>
+<p>Mais si on regarde dans la population globale:</p>
+<p><img alt="" src="../_images/lemonde_2.png" /></p>
+<p>Voir aussi : <a class="reference external" href="https://fr.wikipedia.org/wiki/Paradoxe_de_Simpson">https://fr.wikipedia.org/wiki/Paradoxe_de_Simpson</a></p>
 </section>
 </section>
 
@@ -710,6 +689,13 @@ Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources s
             <footer class="bd-footer-article">
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+  <a class='left-prev' id="prev-link" href="equadif_simu.html" title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+          <p class="prev-next-subtitle">previous</p>
+          <p class="prev-next-title">Equations différentielles simulation</p>
+      </div>
+  </a>
 </div>
             </footer>
             
@@ -726,29 +712,31 @@ Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources s
 </div>
 <nav id="bd-toc-nav" class="page-toc">
     <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#evolution-d-une-ressource">
-   <strong>
-    Evolution d’une ressource
-   </strong>
-   :
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Probabilités
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#gestion-d-une-population-de-nuisibles">
-   <strong>
-    Gestion d’une population de nuisibles
-   </strong>
-   :
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#loi-de-bayes-et-fake-news">
+   Loi de Bayes et Fake news
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#limite-de-la-croissance-d-une-population-etienne">
-   <strong>
-    Limite de la croissance d’une population
-   </strong>
-   : (Etienne)
-  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#covid-19-pourquoi-y-a-t-il-desormais-plus-de-vaccines-que-de-non-vaccines-admis-a-lhopital">
+     <strong>
+      Covid-19 : pourquoi y a-t-il désormais plus de vaccinés que de non-vaccinés admis à l’hôpital ? :
+     </strong>
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#le-paradoxe-de-simpson-aborder-les-chiffres-avec-recul">
+     <strong>
+      Le paradoxe de Simpson, aborder les chiffres avec recul :
+     </strong>
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
