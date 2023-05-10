@@ -5,6 +5,7 @@
 ## **Evolution d'une ressource**: 
 
 Auteur : Etienne
+
 Sujet : Equations différentielles - Limites- Stabilité de l'équation
 
 | 1e | 2e | 3e  | 4e  |
@@ -33,6 +34,7 @@ Cependant, est possible de les résoudre à l'ordinateur (voir activité à ce s
 ## **Gestion d'une population de nuisibles**: 
 
 Auteur : Etienne
+
 Sujet : Equations différentielles - Stabilité de l'équation
 
 | 1e | 2e | 3e  | 4e  |
@@ -48,11 +50,11 @@ $ f'(t) = \alpha f(t) - \beta f(t) = (\alpha - \beta) f(t) $
 1. De quel type d'équation différentielle s'agit-il? La mettre sous forme canonique. 
 2. En notant $\tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
 3. Faire une hypothèse sur le signe de $\tau = \alpha - \beta$ et calculer la limite de $f$ en $+  \infty$. 
-4. Tracer la courbe pour une valeur de $\tau positive.
+4. Tracer la courbe pour une valeur de $\tau$ positive.
 
 On suppose maintenant que l'Homme chasse un taux $\delta$ de nuisible en fonction du temps. La nouvelle équation est donc:
 
-$ f'(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t)
+$ f'(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t) $
 
 5. On note maintenant $\gamma = \alpha - \beta - \delta$. Que signifie $\gamma$ négatif ?
 6. Réécrire la solution de l'équation différentielle en fonction de $\gamma$.
@@ -63,6 +65,7 @@ $ f'(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t)
 ## **Limite de la croissance d'une population**: 
 
 Auteur : Etienne
+
 Sujet : Limite - Equations différentielles
 
 | 1e | 2e | 3e  | 4e  |
@@ -106,6 +109,12 @@ Note: A comparer avec une croissance infinie : $f'(t) = rf(t)$ avec $r>0$. Possi
 
 Auteur : Cameron
 
+Sujet : Equations différentielles
+
+| 1e | 2e | 3e  | 4e  |
+| ----------- | ----------- |-----|-----|
+|  |  |     | **x** |
+
 Climate change is a phenomenon which most people have become very aware of in recent years. Although the Earth is subject to natural warming and cooling cycles, the warming that the planet is experiencing now has been attributed to human intervention, and specifically, the burning of fossil fuels for energy. Through this exercise, we aim to explore this phenomenon, and discover exactly how the Earth's temperature is warming due to this human intervention, what implications it has on the future climate, and how we can lessen the negative impact. 
 
 ## The Simplest Climate Model 
@@ -121,13 +130,13 @@ These terms are further defined by equations 2 and 3
 
 Where \alpha is the solar absorptivity of the Earth, S is the solar energy reaching the Earth, and A_n is the surface area of the earth which is perpendicular to the sun (i.e. a circular cross section). In equation 3, ε_e is a measure of the emissivity of the earth, σ is the Stefan-Boltzmann constant, T is the temperature of the Earth, and A_tot is the total surface area of the planet (which we will model as a perfect sphere).
 
-**Q1) Using equations 1-3 and the area equations for a circle and a sphere, solve for the temperature of the Earth (T) using algebraic principles.** 
+1. ) Using equations 1-3 and the area equations for a circle and a sphere, solve for the temperature of the Earth (T) using algebraic principles.
 
 Once solved, the equation should look like this: 
 (4) $T = \left[ \frac {s\alpha} {4\epsilon\sigma}\right ]^{1/4}$
 Here, we are assuming the Earth is a black body which means we assume it absorbs all infrared energy. Therefore, the emissivity factor, ϵ may be set equal to 1.
 
-**Q2) Solve this equation using the following values for the constants:**
+2. ) Solve this equation using the following values for the constants:
  
 | S $\left[\frac{W}{m^2}\right]$ | a [-] | ϵ [-] | σ $\left[\frac{W}{\frac{m^2}{K^4}}\right]$ |
 | ----------- | ----------- |-----|-----|
@@ -143,10 +152,6 @@ After solving this equation, you should see that the temperature of the Earth is
 ## The Greenhouse Effect
 
 
-| **1e** | **2e** | **3e** | **4e** |
-|--------| --- | --- | --- |
-|        |        |  | **x** |
-
 You have likely heard of the Greenhouse Effect in your science courses; it is the reason the surface of the Earth is warm enough to be inhabitable. The atmosphere acts as the walls of a greenhouse, letting the suns energy in while also making it more difficult for it to escape
 We will now attempt to account for this effect and change our model to better reflect reality. 
 We can refer to the temperature of the earth without an atmosphere and modeled as a black body as T_e (effective emission temperature). If we include another algebraic term which introduces the atmosphere and its effects on trapping heat, we come to the following equation.
@@ -161,9 +166,9 @@ After simplifying, you should have gotten the following:
 
 Here, we see that our original equation has been modified by a term which is dependent on the emissivity of the atmosphere. 
 
-**Q3) Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)**
+3. ) Remember that if there was no atmosphere, the temperature would be defined by T_e. Explain/Demonstrate why we can define the Earth’s temperature using equation 4 if the atmosphere didn’t exist (i.e. ϵ=0)
 
-**Q4) Now given that the emissivity of the atmosphere is 0.78, solve for the true surface temperature of the earth.**
+4. ) Now given that the emissivity of the atmosphere is 0.78, solve for the true surface temperature of the earth.
 
 After solving, you will notice that the average temperature of the earth is about **15 degrees Celsius**. This is about 1 degree warmer than the average global temperature in the 20th century, an increase that many climate scientists have contributed to human intervention.
 
@@ -178,11 +183,11 @@ Now while this increase in temperature on the scale of single degrees may not se
 
 *Figure 2: Intergovernmental Panel on Climate Change Special Report on Global Warming of 1.5º Celsius (2.7º Fahrenheit). https://www.ipcc.ch/sr15/*
 
-**Q5) With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)**
+5. ) With regards to equation 6, identify the parameter which could cause a change in the global average surface temperature over time. (The surface temperature is a function of what variable?)
 
 In looking at the equation, you likely identified that the only parameter which human intervention may have effected is ϵ, the emissivity of the atmosphere. 
 
-**Q6) Solve the equation for varying levels of emissivity, and see if you can identify a relationship between the emissivity and the global temperature.**
+6. ) Solve the equation for varying levels of emissivity, and see if you can identify a relationship between the emissivity and the global temperature.
 
 Notice that as the emissivity approaches 1, the global temperature increases to 30 degrees Celsius. 
 
