@@ -198,6 +198,13 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="derivation.html">
+                        Polynômes
+                      </a>
+                    </li>
+                
                 </div>
             </div>
             
@@ -324,6 +331,13 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="derivation.html">
+                        Polynômes
+                      </a>
+                    </li>
+                
                 </div>
             </div>
             
@@ -414,6 +428,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <li class="toctree-l1"><a class="reference internal" href="proba.html">Probabilités</a></li>
 
+<li class="toctree-l1"><a class="reference internal" href="derivation.html">Polynômes</a></li>
 </ul>
 
     </div>
@@ -540,7 +555,7 @@ title="Print to PDF"
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#evolution-de-la-quantite-de-co2-emise-rapport-giec-2013">
      <strong>
-      Evolution de la quantité de Co2  émise (rapport GIEC 2013)
+      Evolution de la quantité de Co2 émise (rapport GIEC 2013)
      </strong>
      :
     </a>
@@ -548,7 +563,7 @@ title="Print to PDF"
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#evolution-de-la-quantite-de-co2-dans-lair">
      <strong>
-      Évolution de la quantité de Co2  dans l’air :
+      Évolution de la quantité de Co2 dans l’air :
      </strong>
     </a>
    </li>
@@ -569,7 +584,7 @@ title="Print to PDF"
 <section class="tex2jax_ignore mathjax_ignore" id="evolution-du-carbone-dans-l-atmosphere">
 <h1>Evolution du carbone dans l’atmosphère<a class="headerlink" href="#evolution-du-carbone-dans-l-atmosphere" title="Permalink to this headline">#</a></h1>
 <section id="evolution-de-la-quantite-de-co2-emise-rapport-giec-2013">
-<h2><strong>Evolution de la quantité de Co2  émise (rapport GIEC 2013)</strong>:<a class="headerlink" href="#evolution-de-la-quantite-de-co2-emise-rapport-giec-2013" title="Permalink to this headline">#</a></h2>
+<h2><strong>Evolution de la quantité de Co2 émise (rapport GIEC 2013)</strong>:<a class="headerlink" href="#evolution-de-la-quantite-de-co2-emise-rapport-giec-2013" title="Permalink to this headline">#</a></h2>
 <p>Auteur : Etienne
 Sujet : suites numériques</p>
 <table class="colwidths-auto table">
@@ -588,26 +603,27 @@ Sujet : suites numériques</p>
 </tr>
 </tbody>
 </table>
-<p>L’augmentation de la température moyenne à l’échelle de la Terre est directement liée à la quantité de CO2 émises par l’homme. Cette émission est mesurée en GtC/an : Gigatonne de CO2  par an.Le GIEC (Groupe d’Experts Intergouvernemental sur l’évolution du Climat) prévoit deux scénarios pour l’évolution de cette quantité de gaz : soit sans mesures de protection du climat (RCP8.5), soit avec des mesures significatives de protection du climat (RCP2.6) :
-<img alt="" src="../_images/emission_deux_scenarios.png" />
-Figure  1  : Évolution de la quantité de CO2  émise à l’échelle du monde</p>
-<p>On choisit de modéliser la courbe rouge (RCP 8.5) par une suite numérique <span class="math notranslate nohighlight">\( \left(r_n\right)_{\left(n\in\mathbb{N}\right)} \)</span>. On utilisera l’année 2000 comme référence. Notre suite <span class="math notranslate nohighlight">\( \left(r_n\right)_{\left(n\in\mathbb{N}\right)} \)</span> représente donc les émissions telle que <span class="math notranslate nohighlight">\(r_0=6\)</span> (Valeur en 2000 :  6 GtC/an) et <span class="math notranslate nohighlight">\(r_{100}=29\)</span> (Valeur en 2100 : 29 GtC/an).</p>
+<p>L’augmentation de la température moyenne à l’échelle de la Terre est directement liée à la quantité de CO2 émise par l’homme. Cette émission est mesurée en GtC/an : Gigatonne de CO2 par an. Le GIEC (Groupe d’Experts Intergouvernemental sur l’évolution du Climat) prévoit deux scénarios pour l’évolution de cette quantité de gaz : soit sans mesures de protection du climat (RCP8.5), soit avec des mesures significatives de protection du climat (RCP2.6) :
+<img alt="" src="../_images/emission_deux_scenarios.png" /></p>
+<p style="text-align: center;"> Figure 1 : Évolution de la quantité de CO2 émise à l'échelle du monde, [source](https://www.nccs.admin.ch/nccs/fr/home/changement-climatique-et-impacts/scenarios-climatiques-suisses/comprendre-les-scenarios-climatiques.html#924596455) </p>
+<p>On choisit de modéliser la courbe rouge (RCP 8.5) par une suite numérique <span class="math notranslate nohighlight">\( \left(r_n\right)_{\left(n\in\mathbb{N}\right)} \)</span>. On utilisera l’année 2000 comme référence. Notre suite <span class="math notranslate nohighlight">\( \left(r_n\right)_{\left(n\in\mathbb{N}\right)} \)</span> représente donc les émissions telle que <span class="math notranslate nohighlight">\(r_0=6\)</span> (Valeur en 2000 :  6 GtC/an) et <span class="math notranslate nohighlight">\(r_{100}=29\)</span> (Valeur en 2100 : 29 GtC/an). Plus généralement, pour <span class="math notranslate nohighlight">\(n\in \mathbb{N}\)</span>, <span class="math notranslate nohighlight">\(r_n\)</span> est la valeur de la concentration en C02 en l’année <span class="math notranslate nohighlight">\(n-2000\)</span>.</p>
 <ol class="arabic simple">
 <li><p>Entre 2000 et 2060, la suite semble-t-elle être une suite arithmétique ? Une suite géométrique ?</p></li>
 <li><p>Vérifier cette conjecture en calculant les différences et les quotients des différentes valeurs : <span class="math notranslate nohighlight">\(r_0=6,25\)</span>  (en 2000), <span class="math notranslate nohighlight">\(r_{25}=12,5\)</span> (en 2025), <span class="math notranslate nohighlight">\(r_{50}=25\)</span> (en 2050)</p></li>
 <li><p>En déduire la raison de cette suite et écrire son terme général.</p></li>
 </ol>
 <p>L’hypothèse précédente ne permet pas de modéliser la courbe après 2065, la partie 2065-2100 ne sera donc pas étudiée.</p>
-<p>En 2015, les pays de l’organisation des Nations Unies (ONU) ont voté les accords de Paris. Ce texte prévoit de diminuer les émissions de CO2 de 5% par an en vue de limiter le réchauffement climatique à +2°C en 2100. A partir de 2015, on définit une suite <span class="math notranslate nohighlight">\( \left(v_n\right)_{\left(n\in\mathbb{N}\right)} \)</span> qui représente les émissions prévues selon ce scénario. On a <span class="math notranslate nohighlight">\(v_0=9\)</span> (Valeur en 2015 : 9 GtC/an).</p>
+<p>En 2015, les pays de l’organisation des Nations Unies (ONU) ont voté les accords de Paris. Ce texte prévoit de diminuer les émissions de CO2 de 5% par an en vue de limiter le réchauffement climatique à +2°C en 2100. A partir de 2015, on définit une suite <span class="math notranslate nohighlight">\( \left(v_n\right)_{\left(n\in\mathbb{N}\right)} \)</span> qui représente les émissions prévues selon ce scénario. On a <span class="math notranslate nohighlight">\(v_0=9\)</span> (Valeur en 2015 : 9 GtC/an).
+Plus généralement, pour <span class="math notranslate nohighlight">\(n\in \mathbb{N}\)</span>, <span class="math notranslate nohighlight">\(v_n\)</span> est la valeur de la concentration en CO2 en l’année <span class="math notranslate nohighlight">\(n-2015\)</span>.</p>
 <ol class="arabic simple" start="4">
 <li><p>Avec quel type de suite peut-on modéliser une diminution de 5% par an ? Quels seraient ses paramètres ?</p></li>
 <li><p>Avec ces valeurs de la suite, que vaut <span class="math notranslate nohighlight">\(v_{60}\)</span> qui correspond à l’année 2075 ?</p></li>
 <li><p>Le graphique montre-t-il une trajectoire de diminution plus forte ou plus faible que les accords de Paris ?</p></li>
 </ol>
-<p>Source :<a class="reference external" href="https://www.nccs.admin.ch/nccs/fr/home/changement-climatique-et-impacts/scenarios-climatiques-suisses/comprendre-les-scenarios-climatiques.html#924596455">https://www.nccs.admin.ch/nccs/fr/home/changement-climatique-et-impacts/scenarios-climatiques-suisses/comprendre-les-scenarios-climatiques.html#924596455</a></p>
+<p><a class="reference external" href="https://www.nccs.admin.ch/nccs/fr/home/changement-climatique-et-impacts/scenarios-climatiques-suisses/comprendre-les-scenarios-climatiques.html#924596455">Source</a></p>
 </section>
 <section id="evolution-de-la-quantite-de-co2-dans-lair">
-<h2><strong>Évolution de la quantité de Co2  dans l’air :</strong><a class="headerlink" href="#evolution-de-la-quantite-de-co2-dans-lair" title="Permalink to this headline">#</a></h2>
+<h2><strong>Évolution de la quantité de Co2 dans l’air :</strong><a class="headerlink" href="#evolution-de-la-quantite-de-co2-dans-lair" title="Permalink to this headline">#</a></h2>
 <p>Auteur : Etienne
 Sujet : suites numériques</p>
 <table class="colwidths-auto table">
@@ -626,9 +642,9 @@ Sujet : suites numériques</p>
 </tr>
 </tbody>
 </table>
-<p>L’augmentation de la température moyenne à l’échelle de la Terre est directement liée à la quantité de CO2 émises par l’homme. Une partie du CO2  émis est absorbé par les plantes, une autre par l’océan et l’atmosphère. On peut donc mesurer la quantité de CO2 contenu dans l’air pour suivre l’évolution du climat. Celle-ci se mesure en ppm : partie par millions, par exemple 1 ppm signifie que dans l’air, une molécule sur un million est une molécule de CO2. Voici ce que la station de Mauna Loa (Hawaï) a mesuré entre 1960 et 2020 :</p>
+<p>L’augmentation de la température moyenne à l’échelle de la Terre est directement liée à la quantité de CO2 émise par l’homme. Une partie du CO2 émis est absorbé par les plantes, une autre par l’océan et l’atmosphère. On peut donc mesurer la quantité de CO2 contenu dans l’air pour suivre l’évolution du climat. Celle-ci se mesure en ppm : partie par millions, par exemple 1 ppm signifie que dans l’air, une molécule sur un million est une molécule de CO2. Voici ce que la station de Mauna Loa (Hawaï) a mesuré entre 1960 et 2020 :</p>
 <p><img alt="" src="../_images/emission_co2_air.jpg" /></p>
-<p>Figure  2  : CO2 dans l’atmosphère mesuré à Mauna Loa entre 1960 et 2020</p>
+<p style="text-align: center;"> Figure 1  : CO2 dans l'atmosphère mesuré à Mauna Loa entre 1960 et 2020, [source image](https://gml.noaa.gov/ccgg/trends/) </p>
 <ol class="arabic simple">
 <li><p>L’évolution de la courbe noire est-elle linéaire ? On pourra vérifier en traçant une droite sur la figure.</p></li>
 </ol>
@@ -640,13 +656,15 @@ Sujet : suites numériques</p>
 </ol>
 <p>D’après Wikipédia « Une étude sur la période 2000–2006 estime que les émissions anthropiques de dioxyde de carbone sont en moyenne absorbées à 45 % dans l’atmosphère, 30 % par la terre et 24 % par les océans. »</p>
 <ol class="arabic simple" start="5">
-<li><p>Comment peut-on estimer en pourcentage l’augmentation de la quantité de CO2  émise à l’échelle mondiale en utilisant le résultat de la question 4 ?</p></li>
-<li><p>D’après le ministère français de la transition écologique, les émissions mondiales ont augmentées de 0,9% entre 2018 et 2019, cette valeur est-elle cohérente avec la question 4 ?</p></li>
+<li><p>Comment peut-on estimer en pourcentage l’augmentation de la quantité de CO2 émise à l’échelle mondiale en utilisant le résultat de la question 4 ?</p></li>
+<li><p>D’après le ministère français de la Transition écologique, les émissions mondiales ont augmentées de 0,9% entre 2018 et 2019, cette valeur est-elle cohérente avec la question 4 ?</p></li>
 </ol>
 <p>Remarque 1 : Ces valeurs de CO2 dans l’atmosphère peuvent paraître faibles, mais voici l’augmentation moyenne de température en suisse depuis 1880, on peut en particulier regarder la période 1960-2020 :
 <img alt="" src="../_images/complement_temp_suisse.jpg" />
-Remarque 2 :  On peut commenter le fait que localement, une courbe exponentielle peut ressembler à une droite, surtout si le facteur dans l’exponentiel est très petit.</p>
-<p>Source :  <a class="reference external" href="https://www.meteosuisse.admin.ch/climat/changement-climatique.html">https://www.meteosuisse.admin.ch/climat/changement-climatique.html</a></p>
+<a class="reference external" href="https://www.meteosuisse.admin.ch/services-et-publications/applications/ext/climate-evolution-series-public.html">Source image</a>
+Remarque 2 : On peut commenter le fait que localement, une courbe exponentielle peut ressembler à une droite, surtout si le facteur dans l’exponentiel est très petit.</p>
+<p>Source : <a class="reference external" href="https://www.meteosuisse.admin.ch/climat/changement-climatique.html">données</a>
+<a class="reference external" href="https://www.nccs.admin.ch/nccs/fr/home/changement-climatique-et-impacts/scenarios-climatiques-suisses/rapport-technique.html">Rapport CH18</a></p>
 </section>
 </section>
 
@@ -721,7 +739,7 @@ Remarque 2 :  On peut commenter le fait que localement, une courbe exponentielle
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#evolution-de-la-quantite-de-co2-emise-rapport-giec-2013">
      <strong>
-      Evolution de la quantité de Co2  émise (rapport GIEC 2013)
+      Evolution de la quantité de Co2 émise (rapport GIEC 2013)
      </strong>
      :
     </a>
@@ -729,7 +747,7 @@ Remarque 2 :  On peut commenter le fait que localement, une courbe exponentielle
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#evolution-de-la-quantite-de-co2-dans-lair">
      <strong>
-      Évolution de la quantité de Co2  dans l’air :
+      Évolution de la quantité de Co2 dans l’air :
      </strong>
     </a>
    </li>

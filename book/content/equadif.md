@@ -2,7 +2,7 @@
 
 # Limites planétaires
 
-## **Evolution d'une ressource**: 
+## **Evolution d'une ressource** : 
 
 Auteur : Etienne
 
@@ -15,23 +15,23 @@ Sujet : Equations différentielles - Limites- Stabilité de l'équation
 On cherche à étudier l'évolution de la quantité d'une ressource qui se renouvelle et qui est consommée, par exemple le bois issu des arbres. 
 On note $Q$ la quantité initiale et $q(t)$ la fonction qui décrit la quantité en fonction du temps. On suppose que la ressource se renouvelle avec un taux $\alpha$ et qu'elle se consomme avec un taux $\beta$.
 Chaque année $t$, on consomme donc  $\beta q(t)$ de la ressource, et une quantité $\alpha q(t)$ a été produite. 
-On peut écrire que pour tout temps $t \in \mathbb{R}^+$ l'évolution de la quantité $q(t)$ est régie par l'équation différentielle suivante:
+On peut écrire que pour tout temps $t \in \mathbb{R}^+$ l'évolution de la quantité $q(t)$ est régie par l'équation différentielle suivante :
 
 $ q'(t) = \alpha q(t) - \beta q(t) = (\alpha - \beta) q(t)$
 
-1. De quel type d'équation différentielle s'agit-il? La mettre sous forme canonique.
+1. De quel type d'équation différentielle s'agit-il ? La mettre sous forme canonique.
 2. En notant $\tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
 3. Que représente $\tau$?
 3. Quelle est la limite de $q(t)$ en $+  \infty$ pour $\tau>0$ ? Pour $\tau<0$ ? Que se passe t'il pour $\tau=0$ ? 
 4. Expliquer ce que chacun des 3 cas représente et tracer $q$ en fonction de $t$ pour chaque cas
 
-5. Quel est le risque de consommer plus de ressources que ce que l'on produit? Mathématiquement quelles sont les solutions pour résoudre ce problème?
+5. Quel est le risque de consommer plus de ressources que ce que l'on produit ? Mathématiquement quelles sont les solutions pour résoudre ce problème ?
 
-En réalité, $\alpha$ et $\beta$ dépendent eux aussi du temps, en particulier la consommation qui n'est pas toujours la même. Ces cas là sont n'ont en général pas de solutions générales.
+En réalité, $\alpha$ et $\beta$ dépendent eux aussi du temps, en particulier la consommation qui n'est pas toujours la même. Ces cas-là sont n'ont en général pas de solutions générales.
 Cependant, est possible de les résoudre à l'ordinateur (voir activité à ce sujet).
 
 
-## **Gestion d'une population de nuisibles**: 
+## **Gestion d'une population de nuisibles** : 
 
 Auteur : Etienne
 
@@ -42,27 +42,27 @@ Sujet : Equations différentielles - Stabilité de l'équation
 |  |  |     | **x** |
 
 Certaines espèces sont considérées comme nuisible pour l'Homme, c'est le cas de certains moustiques ou certaines mouches.  
-Certains pays tentent donc de réguler les populations des nuisibles. Pourtant ces insectes font partis d'un cycle alimentaire entre proie et prédateurs qu'il faut préserver. Soit $N$ le nombre initial de nuisible, on note $f(t)$ la fonction qui décrit l'évolution de la population en fonction du temps. Cette population a un taux de natalité $\alpha$ et un taux de mortalité $\beta$.
+Certains pays tentent donc de réguler les populations des nuisibles. Pourtant, ces insectes font partis d'un cycle alimentaire entre proie et prédateurs qu'il faut préserver. Soit $N$ le nombre initial de nuisible, on note $f(t)$ la fonction qui décrit l'évolution de la population de nuisibles en fonction du temps. Cette population a un taux de natalité $\alpha$ et un taux de mortalité $\beta$.
 En l'absence de l'homme, l'évolution de la fonction $f$ suit l'équation différentielle suivante : 
 
 $ f'(t) = \alpha f(t) - \beta f(t) = (\alpha - \beta) f(t) $
 
-1. De quel type d'équation différentielle s'agit-il? La mettre sous forme canonique. 
+1. De quel type d'équation différentielle s'agit-il ? La mettre sous forme canonique. 
 2. En notant $\tau = \alpha - \beta$ et en utilisant les conditions initiales, résoudre l'équation. 
 3. Faire une hypothèse sur le signe de $\tau = \alpha - \beta$ et calculer la limite de $f$ en $+  \infty$. 
 4. Tracer la courbe pour une valeur de $\tau$ positive.
 
-On suppose maintenant que l'Homme chasse un taux $\delta$ de nuisible en fonction du temps. La nouvelle équation est donc:
+On suppose maintenant que l'Homme chasse un taux $\delta$ de nuisible en fonction du temps. La nouvelle équation est donc :
 
 $ f'(t) = \alpha f(t) - \beta f(t) - \delta f(t)= (\alpha - \beta - \delta) f(t) $
 
 5. On note maintenant $\gamma = \alpha - \beta - \delta$. Que signifie $\gamma$ négatif ?
 6. Réécrire la solution de l'équation différentielle en fonction de $\gamma$.
 7. Quelle est la limite de $f$ en $+  \infty$ si $\gamma<0$?
-8. A quoi correspond le cas $\gamma=0$ ? ( Mathématiquement et dans la vraie vie)
-9. Qualitativement, comment devrait évoluer $\gamma$ pour avoir une politique de gestion efficace ? Quel est le risque de vouloir gérer une population via la chasse?
+8. À quoi correspond le cas $\gamma=0$ ? ( Mathématiquement et dans la vraie vie)
+9. Qualitativement, comment devrait évoluer $\gamma$ pour avoir une politique de gestion efficace ? Quel est le risque de vouloir gérer une population via la chasse ?
 
-## **Limite de la croissance d'une population**: 
+## **Limite de la croissance d'une population** : 
 
 Auteur : Etienne
 
@@ -75,34 +75,35 @@ Sujet : Limite - Equations différentielles
 Source : https://fr.wikipedia.org/wiki/Dynamique_des_populations and https://en.wikipedia.org/wiki/Logistic_function#In_ecology:_modeling_population_growth
 
 On souhaite décrire l'évolution d'une population dans un environnement donné. On note $N$ le nombre d'individus initialement et $f(t)$ la fonction qui décrit l'évolution de la population en fonction du temps.
-On suppose que l'environnement peut accueillir $K$ individus en terme de ressources et que la population évolue à un taux $r$ (taux de naissance moins taux de décés).
-On peut décrire $f$ avec l'équation différentielle suivante:
+On suppose que l'environnement peut accueillir $K$ individus en termes de ressources et que la population évolue à un taux $r$ (taux de naissance moins taux de décés).
+On peut décrire $f$ avec l'équation différentielle suivante :
 
 $ f'(t) = rf(t) (\frac{K-f(t)}{K})= r f(t) (1-\frac{f(t)}{K}) $
 
-1. Que représente le cas où $f(t)<K$ ? Quel est le signe de $f'$ dans ce cas? Comment va évoluer $f$?
-2. Que représente le cas où $f(t)>K$ ? Quel est le signe de $f'$ dans ce cas? Comment va évoluer $f$?
+1. Que représente le cas où $f(t)<K$ ? Quel est le signe de $f'$ dans ce cas ? Comment va évoluer $f$ ?
+2. Que représente le cas où $f(t)>K$ ? Quel est le signe de $f'$ dans ce cas ? Comment va évoluer $f$ ?
 
-Cette équation a pour solution en fonction de N:
+Cette équation a pour solution en fonction de N :
 
 $f(t) = \frac{K N e^{rt}}{K + N \left( e^{rt} - 1\right)} = \frac{K}{1+\left(\frac{K-N}{N}\right)e^{-rt}}$
 
 3. Calculer la limite de la fonction en $+ \inf$. Commenter.
-Le graphique suivant montre une solution de l'équation différentielle étudiée plus haut:
+Le graphique suivant montre une solution de l'équation différentielle étudiée plus haut :
 
 ![](../images/capacity.png) 
-
+[Source image](https://www.issuesofsustainability.org/helpndoc-content/CarryingCapacity1.html)
 
 $K$ représente la limite du nombre d'individus avec la production des ressources d'un environnement.
 Une population peut dépasser $K$ en stockant et en consommant plus de ressourses que l'environnement peut en fournir.
-Dans ce cas on observe un dépassement de la valeur de K. Comme les ressources stockées ne sont pas éternelles, on obtient des oscillations du nombre d'individus comme sur la courbe ci-dessous:
+Dans ce cas, on observe un dépassement de la valeur de K. Comme les ressources stockées ne sont pas éternelles, on obtient des oscillations du nombre d'individus comme sur la courbe ci-dessous :
 
 ![](../images/limite.gif)
+[Source image](https://www.uwyo.edu/dbmcd/popecol/janlects/lect05.html)
 
-4. Placer sur le graphique $N$ le nombre initial d'individu et $K$. Repérer des zones où $f(t)<K$ , $f(t)>K$ 
-5. Une population peut-elle indéfiniment consommer plus de ressources qu'elle n'en produit?
+4. Placer sur le graphique $N$ le nombre initial d'individu et $K$. Repérer des zones où $f(t)<K$ , $f(t)>K$ .
+5. Une population peut-elle indéfiniment consommer plus de ressources qu'elle n'en produit ?
 
-Note: A comparer avec une croissance infinie : $f'(t) = rf(t)$ avec $r>0$. Possibilités de continuer l'activité via une simulation
+Note : À comparer avec une croissance infinie : $f'(t) = rf(t)$ avec $r>0$. Possibilités de continuer l'activité en réalisant une simulation sur la résolution de l'équation (via Grapher, Python ou autre).
 
 
 # The Greenhouse effect and Earth's Temperature Model
@@ -173,9 +174,9 @@ Here, we see that our original equation has been modified by a term which is dep
 After solving, you will notice that the average temperature of the earth is about **15 degrees Celsius**. This is about 1 degree warmer than the average global temperature in the 20th century, an increase that many climate scientists have contributed to human intervention.
 
 ![](../images/GlobalSurfaceTemp.png)
-<div style="text-align:center"><img src="GlobalSurfaceTemp.png" /> </div>
+<div style="text-align:center"> <img src="GlobalSurfaceTemp.png" /> </div>
 
-*Figure 1: Yearly surface temperature compared to the 20th-century average from 1880–2022. Blue bars indicate cooler-than-average years; red bars show warmer-than-average years. NOAA Climate.gov graph, based on data from the National Centers for Environmental Information. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature#:~:text=January%2018%2C%202023-,Highlights,0.18%C2%B0%20C)%20per%20decade.*
+*Figure 1: Yearly surface temperature compared to the 20th-century average from 1880 to 2022. Blue bars indicate cooler-than-average years; red bars show warmer-than-average years. NOAA Climate.gov graph, based on data from the National Centers for Environmental Information. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature#:~:text=January%2018%2C%202023-,Highlights,0.18%C2%B0%20C)%20per%20decade.*
 
 Now while this increase in temperature on the scale of single degrees may not seem significant, it could dramatically affect the global climate. This temperature is representative of the global average, and there is significant range in temperature from the hottest to the coldest places. Although we may experience slight variations in climate, a large portion of the warming is felt by arctic regions near the poles. Large increases in temperatures for these areas can be reflected by smaller increases in the global average.
 

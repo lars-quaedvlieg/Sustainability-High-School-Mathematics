@@ -70,7 +70,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Evolution du carbone dans l’atmosphère" href="suites.html" />
+    <link rel="next" title="Suites numériques" href="suites.html" />
     <link rel="prev" title="User Guide" href="user_guide.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
@@ -168,7 +168,7 @@ const thebe_selector_output = ".output, .cell_output"
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="suites.html">
-                        Evolution du carbone dans l’atmosphère
+                        Suites numériques
                       </a>
                     </li>
                 
@@ -195,6 +195,13 @@ const thebe_selector_output = ".output, .cell_output"
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="proba.html">
                         Probabilités
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="derivation.html">
+                        Polynômes
                       </a>
                     </li>
                 
@@ -294,7 +301,7 @@ const thebe_selector_output = ".output, .cell_output"
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="suites.html">
-                        Evolution du carbone dans l’atmosphère
+                        Suites numériques
                       </a>
                     </li>
                 
@@ -321,6 +328,13 @@ const thebe_selector_output = ".output, .cell_output"
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="proba.html">
                         Probabilités
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="derivation.html">
+                        Polynômes
                       </a>
                     </li>
                 
@@ -405,7 +419,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Content</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Polynômes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="suites.html">Evolution du carbone dans l’atmosphère</a></li>
+<li class="toctree-l1"><a class="reference internal" href="suites.html">Suites numériques</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="equadif.html">Equations différentielles</a></li>
 
 
@@ -413,6 +428,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <li class="toctree-l1"><a class="reference internal" href="proba.html">Probabilités</a></li>
 
+<li class="toctree-l1"><a class="reference internal" href="derivation.html">Polynômes</a></li>
 </ul>
 
     </div>
@@ -572,31 +588,31 @@ title="Print to PDF"
 </tbody>
 </table>
 <p><img alt="" src="../_images/betz.png" />
-Source : <a class="reference external" href="http://culturesciencesphysique.ens-lyon.fr/ressource/eolienne-olympiades1.xml">http://culturesciencesphysique.ens-lyon.fr/ressource/eolienne-olympiades1.xml</a></p>
+<a class="reference external" href="http://culturesciencesphysique.ens-lyon.fr/ressource/eolienne-olympiades1.xml">Source image</a></p>
 <p>Une éolienne utilise l’air pour fournir de l’électricité. L’air qui la traversse permet de faire tourner des pales qui alimentent un générateur. Pour étudier une éolienne, on considère un tube d’air autour d’elle qui commence quelques mètres avant et finit quelques mètres après (voir image). L’air arrive avec une vitesse <span class="math notranslate nohighlight">\(v_1\)</span> et ressort quelques mètres plus loin <span class="math notranslate nohighlight">\(v_2\)</span>.</p>
 <ol class="arabic simple">
-<li><p>Considérant que l’air a fourni de l’énergie à l’éolienne, donner un encadrement de <span class="math notranslate nohighlight">\(v_2\)</span> en fonction de <span class="math notranslate nohighlight">\(v_1\)</span></p></li>
+<li><p>Considérant que l’air a fourni de l’énergie à l’éolienne, donner un encadrement de <span class="math notranslate nohighlight">\(v_2\)</span> en fonction de <span class="math notranslate nohighlight">\(v_1\)</span>.</p></li>
 </ol>
-<p>Réponse : Entre les deux, l’air a fourni de l’énergie à l’éolienne, on peut donc écrire que <span class="math notranslate nohighlight">\({0\le v}_2\le\ v_1\)</span>. Note : il faut en réalité étudier les lignes de champs pour obtenir ce résultat mais l’idée de la perte d’énergie reste valable.</p>
+<p>Réponse : Entre les deux, l’air a fourni de l’énergie à l’éolienne, on peut donc écrire que <span class="math notranslate nohighlight">\({0\le v}_2\le\ v_1\)</span>. Note : il faut en réalité étudier les lignes de champs pour obtenir ce résultat, mais l’idée de la perte d’énergie reste valable.</p>
 <p>A première vue, on peut penser qu’une éolienne qui tourne vite produit forcément plus d’énergie. C’est ce que nous allons vérifier. La relation de Bernoulli permet d’écrire la puissance de l’éolienne comme :</p>
 <p><span class="math notranslate nohighlight">\(P=k.\left(v_1^2\ -\ v_2^2\right).\left(\frac{v_1+v_2}{2}\right)\)</span></p>
 <p>Où <span class="math notranslate nohighlight">\(k\)</span> est une constante. Par la suite on supposera la vitesse d’entrée <span class="math notranslate nohighlight">\(v_1\)</span> connue et constante et on écrira x=v_2 la vitesse de sortie du vent. Pour étudier la puissance de l’éolienne, on étudiera donc la fonction f suivante :</p>
 <p><span class="math notranslate nohighlight">\(f\left(x\right)=k.\left(v_1^2-x^2\right).\left(\frac{x+v_1}{2}\right)\)</span></p>
 <ol class="arabic simple" start="2">
-<li><p>Sur quel intervalle <span class="math notranslate nohighlight">\(f\)</span> est elle définie ? Sur quel intervalle est-il judicieux de l’étudier ? On répondra en réfléchissant au sens de x.</p></li>
+<li><p>Sur quel intervalle <span class="math notranslate nohighlight">\(f\)</span> est-elle définie ? Sur quel intervalle est-il judicieux de l’étudier ? On répondra en réfléchissant au sens de x.</p></li>
 <li><p>Développer <span class="math notranslate nohighlight">\(f\)</span></p></li>
 </ol>
 <p>On cherche la vitesse <span class="math notranslate nohighlight">\(x\)</span> permettant à l’éolienne d’obtenir une puissance maximale.
-4. Sur quel intervalle <span class="math notranslate nohighlight">\(f\)</span> est-elle dérivable ? Dériver <span class="math notranslate nohighlight">\(f\)</span></p>
+4. Sur quel intervalle <span class="math notranslate nohighlight">\(f\)</span> est-elle dérivable ? Dériver <span class="math notranslate nohighlight">\(f\)</span>.</p>
 <ol class="arabic simple" start="5">
-<li><p>Chercher <span class="math notranslate nohighlight">\(x^\ast\in\mathbb{R}^+\)</span> tel que <span class="math notranslate nohighlight">\(f'(x^\ast)=0 \)</span></p></li>
+<li><p>Chercher <span class="math notranslate nohighlight">\(x^\ast\in\mathbb{R}^+\)</span> tel que <span class="math notranslate nohighlight">\(f'(x^\ast)=0 \)</span>.</p></li>
 <li><p>Que pensez-vous de cette valeur par rapport à <span class="math notranslate nohighlight">\(v_1\)</span> ?</p></li>
 <li><p>Quelle est la valeur de la puissance électrique de l’éolienne pour cette valeur de <span class="math notranslate nohighlight">\(x\)</span> ? (Calculer f(x^\ast) )</p></li>
 </ol>
 <p>En réalité, la vitesse des pales de l’éolienne est régulée pour que la vitesse de sortie soit toujours x^\ast. On suppose donc maintenant que l’éolienne fonctionne à cette vitesse. En réalité, <span class="math notranslate nohighlight">\(k\)</span> s’écrit <span class="math notranslate nohighlight">\(k=\frac{\rho S}{2}\)</span> où <span class="math notranslate nohighlight">\(\rho\)</span> est la masse volumique de l’air, qui est constante, et <span class="math notranslate nohighlight">\(S\)</span> la surface formée par les pales.</p>
 <ol class="arabic simple" start="8">
 <li><p>Si <span class="math notranslate nohighlight">\(v_1\)</span> est divisée par 2, par combien est divisé  <span class="math notranslate nohighlight">\(f\left(x^*\right)\)</span> ?</p></li>
-<li><p>Par combien faut-il augmenter S pour obtenir la même puissance malgré la baisse de $v_1?</p></li>
+<li><p>Par combien faut-il augmenter S pour obtenir la même puissance malgré la baisse de <span class="math notranslate nohighlight">\(v_1\)</span> ?</p></li>
 </ol>
 </section>
 <section id="pourquoi-les-eoliennes-ne-tournent-pas-si-vite-version-courte">
@@ -620,15 +636,15 @@ Sujet : polynômes et dérivation</p>
 </tbody>
 </table>
 <p><img alt="" src="../_images/betz.png" />
-Source : <a class="reference external" href="http://culturesciencesphysique.ens-lyon.fr/ressource/eolienne-olympiades1.xml">http://culturesciencesphysique.ens-lyon.fr/ressource/eolienne-olympiades1.xml</a></p>
+<a class="reference external" href="http://culturesciencesphysique.ens-lyon.fr/ressource/eolienne-olympiades1.xml">Source image</a></p>
 <p>Une éolienne utilise l’air pour fournir de l’électricité. L’air qui la traverse permet de faire tourner des pales qui alimentent un générateur. Sa puissance électrique s’écrit :</p>
 <p><span class="math notranslate nohighlight">\(f\left(x\right)=k.\left(v_1^2-x^2\right).\left(\frac{x+v_1}{2}\right)\)</span></p>
 <p>Où <span class="math notranslate nohighlight">\( x\in\mathbb{R}^+ \)</span> , <span class="math notranslate nohighlight">\(k\)</span> est une constante et v_1 est supposée connue et constante.
 On cherche la vitesse x permettant à l’éolienne d’obtenir une puissance maximale.</p>
 <ol class="arabic simple">
-<li><p>Développer <span class="math notranslate nohighlight">\(f\)</span></p></li>
-<li><p>Sur quel intervalle f est-elle dérivable ? Dériver <span class="math notranslate nohighlight">\(f\)</span></p></li>
-<li><p>Chercher <span class="math notranslate nohighlight">\(x^\ast\in\mathbb{R}^+\)</span> tel que <span class="math notranslate nohighlight">\(f'(x^\ast)=0\)</span></p></li>
+<li><p>Développer <span class="math notranslate nohighlight">\(f\)</span>.</p></li>
+<li><p>Sur quel intervalle f est-elle dérivable ? Dériver <span class="math notranslate nohighlight">\(f\)</span>.</p></li>
+<li><p>Chercher <span class="math notranslate nohighlight">\(x^\ast\in\mathbb{R}^+\)</span> tel que <span class="math notranslate nohighlight">\(f'(x^\ast)=0\)</span>.</p></li>
 <li><p>Que pensez-vous de cette valeur par rapport à <span class="math notranslate nohighlight">\(v_1\)</span> ?</p></li>
 <li><p>Quelle est la valeur de la puissance électrique de l’éolienne pour cette valeur de <span class="math notranslate nohighlight">\(x^\ast\)</span> ? (Calculer <span class="math notranslate nohighlight">\(f(x^\ast)\)</span> )</p></li>
 </ol>
@@ -673,7 +689,7 @@ On cherche la vitesse x permettant à l’éolienne d’obtenir une puissance ma
   <a class='right-next' id="next-link" href="suites.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Evolution du carbone dans l’atmosphère</p>
+      <p class="prev-next-title">Suites numériques</p>
   </div>
   <i class="fa-solid fa-angle-right"></i>
   </a>
