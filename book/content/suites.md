@@ -12,7 +12,7 @@ Sujet : suites numériques
 
 L’augmentation de la température moyenne à l’échelle de la Terre est directement liée à la quantité de CO2 émise par l’homme. Cette émission est mesurée en GtC/an : Gigatonne de CO2 par an. Le GIEC (Groupe d’Experts Intergouvernemental sur l’évolution du Climat) prévoit deux scénarios pour l’évolution de cette quantité de gaz : soit sans mesures de protection du climat (RCP8.5), soit avec des mesures significatives de protection du climat (RCP2.6) :
 ![](../images/emission_deux_scenarios.png)
-<p style="text-align: center;"> Figure 1 : Évolution de la quantité de CO2 émise à l'échelle du monde, [source](https://www.nccs.admin.ch/nccs/fr/home/changement-climatique-et-impacts/scenarios-climatiques-suisses/comprendre-les-scenarios-climatiques.html#924596455) </p>
+Figure 1 : Évolution de la quantité de CO2 émise à l'échelle du monde, [source](https://www.nccs.admin.ch/nccs/fr/home/changement-climatique-et-impacts/scenarios-climatiques-suisses/comprendre-les-scenarios-climatiques.html#924596455) 
 
 On choisit de modéliser la courbe rouge (RCP 8.5) par une suite numérique $ \left(r_n\right)_{\left(n\in\mathbb{N}\right)} $. On utilisera l’année 2000 comme référence. Notre suite $ \left(r_n\right)_{\left(n\in\mathbb{N}\right)} $ représente donc les émissions telle que $r_0=6$ (Valeur en 2000 :  6 GtC/an) et $r_{100}=29$ (Valeur en 2100 : 29 GtC/an). Plus généralement, pour $n\in \mathbb{N}$, $r_n$ est la valeur de la concentration en C02 en l'année $n-2000$.
 
@@ -49,7 +49,7 @@ L’augmentation de la température moyenne à l’échelle de la Terre est dire
 
 ![](../images/emission_co2_air.jpg)
 
-<p style="text-align: center;"> Figure 1  : CO2 dans l'atmosphère mesuré à Mauna Loa entre 1960 et 2020, [source image](https://gml.noaa.gov/ccgg/trends/) </p>
+Figure 1  : CO2 dans l'atmosphère mesuré à Mauna Loa entre 1960 et 2020, [source image](https://gml.noaa.gov/ccgg/trends/)
 
 1. L’évolution de la courbe noire est-elle linéaire ? On pourra vérifier en traçant une droite sur la figure.
 
@@ -70,6 +70,7 @@ D’après Wikipédia « Une étude sur la période 2000–2006 estime que les �
 Remarque 1 : Ces valeurs de CO2 dans l’atmosphère peuvent paraître faibles, mais voici l’augmentation moyenne de température en suisse depuis 1880, on peut en particulier regarder la période 1960-2020 :
 ![](../images/complement_temp_suisse.jpg)
 [Source image](https://www.meteosuisse.admin.ch/services-et-publications/applications/ext/climate-evolution-series-public.html)
+
 Remarque 2 : On peut commenter le fait que localement, une courbe exponentielle peut ressembler à une droite, surtout si le facteur dans l’exponentiel est très petit.
 
 Source : [données](https://www.meteosuisse.admin.ch/climat/changement-climatique.html)
