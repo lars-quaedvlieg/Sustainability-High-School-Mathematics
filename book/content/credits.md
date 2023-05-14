@@ -17,22 +17,19 @@ this book better!
 
 * - Name
   - Affiliation
-* - {badge}`Project founder,badge-danger`\
-  **Lars Quaedvlieg**\
+* - **Lars Quaedvlieg**\
   [<i class="fa-solid fa-link"></i>](https://lars-quaedvlieg.github.io/)
   [<i class="fa-brands fa-linkedin"></i>](https://www.linkedin.com/in/lars-quaedvlieg/)
   [<i class="fa-brands fa-github"></i>](https://github.com/lars-quaedvlieg)
   - Student in Data Science at 
   [*École Polytechnique Fédérale de Lausanne*](https://www.epfl.ch/education/master/programs/data-science/), Lausanne,
   Switzerland
-* - {badge}`Project founder,badge-danger`\
-  **Etienne Chassaing**
+* - **Etienne Chassaing**
   - Student at 
   [*École Polytechnique Fédérale de Lausanne*](https://www.epfl.ch/education/master/programs/data-science/), Lausanne,
   Switzerland
-* - {badge}`Project founder,badge-danger`\
-  **Cameron Bush**
-  - Student in Data Science at 
+* - **Cameron Bush**
+  - Student  at 
   [*École Polytechnique Fédérale de Lausanne*](https://www.epfl.ch/education/master/programs/data-science/), Lausanne,
   Switzerland
 ```

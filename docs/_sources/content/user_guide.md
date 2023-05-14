@@ -25,7 +25,36 @@ functionalities that can be explored, such as simulations. Since these simulatio
 specific instructions to show how to make them interactive, such as by tuning experimental parameters. Please take a
 look at the figures below for more information on how to do this.
 
-TODO WHEN THERE IS A JUPYTER BOOK
+````{dropdown} Using Jupyter Notebooks
+```{figure} ../images/user-guide-sim-1.png
+:alt: Navigation Guide for Using Simulations
+:class: bg-primary mb-1
+:width: 100%
+:align: center
+
+Using Simulations with Jupyter Notebooks
+```
+
+After clicking on the rocket-shaped button, follow the steps below to use interactivity:
+1. Click on "COLAB"
+2. When the file has opened in Google Colaboratory, go to "Runtime -> Run All" as in the image below:
+```{figure} ../images/user-guide-sim-ra.png
+:alt: Clicking Run All
+:class: bg-primary mb-1
+:width: 100%
+:align: center
+```
+3. Scroll down until you see a block with the parameters like in the image below
+```{figure} ../images/user-guide-sim-pa.png
+:alt: Clicking Run All
+:class: bg-primary mb-1
+:width: 100%
+:align: center
+```
+4. Change any of the parameters in this block depending on your goals, and press the play button on the top left of the 
+block. Alternatively, you can select the block and press "CTRL + ENTER". The code will now be executed, and you should
+see the results afterwards.
+````
 
 # Contributing to the project
 

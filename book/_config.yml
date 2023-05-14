@@ -42,7 +42,7 @@ launch_buttons:
 
 repository:
   url: https://github.com/lars-quaedvlieg/Sustainability-High-School-Mathematics
-  path_to_book: docs
+  path_to_book: book
   branch: master
 
 # References settings
@@ -53,8 +53,6 @@ bibtex_bibfiles:
 sphinx:
   extra_extensions:
     - sphinx_design
-    - sphinx_proof
-    - sphinxcontrib.pseudocode
   config:
     language: en
     panels_add_fontawesome_latex: true
