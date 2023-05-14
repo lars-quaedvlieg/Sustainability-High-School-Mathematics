@@ -33,3 +33,7 @@ this book better!
   [*École Polytechnique Fédérale de Lausanne*](https://www.epfl.ch/education/master/programs/data-science/), Lausanne,
   Switzerland
 ```
+
+Furthermore, it is important to note that we utilized various sources in the creation of this book. Any source that was
+used in the development of any chapter has been added to the sources, either at the beginning or ending of the exercises
+in embedded links.
